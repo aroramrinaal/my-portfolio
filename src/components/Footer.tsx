@@ -9,8 +9,8 @@ const Footer: React.FC = () => {
                         &copy; 2024 Mrinaal Arora. All rights reserved.
                     </div>
                     <div className="space-x-4">
-                        <a href="https://github.com/aroramrinaal" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Github</a>
-                        <a href="https://www.instagram.com/mri.ar/" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Instagram</a>
+                        <a href="https://github.com/aroramrinaal" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Github</a>
+                        <a href="https://www.instagram.com/mri.ar/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Instagram</a>
                     </div>
                 </div>
             </div>
