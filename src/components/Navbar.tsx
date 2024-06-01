@@ -13,16 +13,16 @@ const Navbar: React.FC = () => {
                         <div className="hidden md:block">
                             <div className="ml-10 flex items-baseline space-x-4">
                                 <Link href="/">
-                                    <a className="text-charcoal hover:bg-teal hover:text-lightGray px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                                    <a className="text-white hover:bg-teal hover:text-lightGray px-3 py-2 rounded-md text-sm font-medium">Home</a>
                                 </Link>
                                 <Link href="/about">
-                                    <a className="text-charcoal hover:bg-teal hover:text-lightGray px-3 py-2 rounded-md text-sm font-medium">About</a>
+                                    <a className="text-white hover:bg-teal hover:text-lightGray px-3 py-2 rounded-md text-sm font-medium">About</a>
                                 </Link>
                                 <Link href="/projects">
-                                    <a className="text-charcoal hover:bg-teal hover:text-lightGray px-3 py-2 rounded-md text-sm font-medium">Projects</a>
+                                    <a className="text-white hover:bg-teal hover:text-lightGray px-3 py-2 rounded-md text-sm font-medium">Projects</a>
                                 </Link>
                                 <Link href="/blog">
-                                    <a className="text-charcoal hover:bg-teal hover:text-lightGray px-3 py-2 rounded-md text-sm font-medium">Blog</a>
+                                    <a className="text-white hover:bg-teal hover:text-lightGray px-3 py-2 rounded-md text-sm font-medium">Blog</a>
                                 </Link>
                             </div>
                         </div>
