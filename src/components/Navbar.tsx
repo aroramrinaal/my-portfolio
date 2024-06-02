@@ -7,7 +7,7 @@ const Navbar: React.FC = () => {
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <Link href="/">
                     <a className="flex items-center space-x-3 rtl:space-x-reverse">
-                        <img src="https://flowbite.com/docs/images/logo.svg" className="h-8" alt="MyLogo" />
+                        <img src="public/mylogo.svg" className="h-8" alt="MyLogo" />
                         <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Mrinaal Arora</span>
                     </a>
                 </Link>
