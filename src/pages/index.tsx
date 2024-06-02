@@ -1,11 +1,11 @@
 import React from 'react';
+import Navbar from '@/components/Navbar';
 
 const Index: React.FC = () => {
   return (
     <div>
-      <h1>Hello, World!</h1>
-    </div>
-  );
+    <Navbar/>
+    </div>);
 };
 
 export default Index;

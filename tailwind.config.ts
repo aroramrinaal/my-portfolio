@@ -9,10 +9,11 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        darkNavy: '#222831',  // Example primary color
-        charcoal: '#393E46',  // Example secondary color
-        teal: '#00ADB5',      // Example accent color
-        lightGray: '#EEEEEE', // Example background color
+        darkPurple: '#242038',  // Dark Purple
+        amethyst: '#9067C6',    // Amethyst
+        tropicalIndigo: '#8D86C9', // Tropical Indigo
+        frenchGray: '#CAC4CE',  // French Gray
+        linen: '#F7ECE1',       // Linen
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
