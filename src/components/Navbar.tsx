@@ -21,20 +21,20 @@ const Navbar: React.FC = () => {
                     <ul className="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
                         <li>
                             <Link href="/projects">
-                                <a className="block py-2 px-3 md:p-0 text-black rounded md:bg-transparent dark:text-black">Projects</a>
+                                <a className="block py-2 px-3 md:p-0 text-lg text-black rounded md:bg-transparent dark:text-black">Projects</a>
                             </Link>
                         </li>
                         <li>
                             <Link href="/blog">
-                                <a className="block py-2 px-3 md:p-0 text-black rounded md:hover:bg-transparent md:border-0 dark:text-black">Blog</a>
+                                <a className="block py-2 px-3 md:p-0 text-lg text-black rounded md:hover:bg-transparent md:border-0 dark:text-black">Blog</a>
                             </Link>
                         </li>
                         <li>
-                            <a href="https://drive.google.com/file/d/1yjz-xb2dyYpmFSMmRzpuR92McE6jnYcJ/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="block py-2 px-3 md:p-0 text-black rounded md:hover:bg-transparent md:border-0 dark:text-black">Resume</a>
+                            <a href="https://drive.google.com/file/d/1yjz-xb2dyYpmFSMmRzpuR92McE6jnYcJ/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="block py-2 px-3 md:p-0 text-lg text-black rounded md:hover:bg-transparent md:border-0 dark:text-black">Resume</a>
                         </li>
                         <li>
                             <Link href="/contact">
-                                <a className="block py-2 px-3 md:p-0 text-black rounded md:hover:bg-transparent md:border-0 dark:text-black">Contact</a>
+                                <a className="block py-2 px-3 md:p-0 text-lg text-black rounded md:hover:bg-transparent md:border-0 dark:text-black">Contact</a>
                             </Link>
                         </li>
                     </ul>
