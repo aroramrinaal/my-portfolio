@@ -26,15 +26,15 @@ const Navbar: React.FC = () => {
                         </li>
                         <li>
                             <Link href="/blog">
-                                <a className="block py-2 px-3 md:p-0 text-lg text-amethyst rounded md:hover:bg-transparent md:border-0 dark:text-amethyst">Blog</a>
+                                <a className="block py-2 px-3 md:p-0 text-lg text-black rounded md:hover:bg-transparent md:border-0 dark:text-amethyst">Blog</a>
                             </Link>
                         </li>
                         <li>
-                            <a href="https://drive.google.com/file/d/1yjz-xb2dyYpmFSMmRzpuR92McE6jnYcJ/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="block py-2 px-3 md:p-0 text-lg text-amethyst rounded md:hover:bg-transparent md:border-0 dark:text-amethyst">Resume</a>
+                            <a href="https://drive.google.com/file/d/1yjz-xb2dyYpmFSMmRzpuR92McE6jnYcJ/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="block py-2 px-3 md:p-0 text-lg text-black rounded md:hover:bg-transparent md:border-0 dark:text-amethyst">Resume</a>
                         </li>
                         <li>
                             <Link href="/contact">
-                                <a className="block py-2 px-3 md:p-0 text-lg text-amethyst rounded md:hover:bg-transparent md:border-0 dark:text-amethyst">Contact</a>
+                                <a className="block py-2 px-3 md:p-0 text-lg text-black rounded md:hover:bg-transparent md:border-0 dark:text-amethyst">Contact</a>
                             </Link>
                         </li>
                     </ul>
