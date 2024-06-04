@@ -6,9 +6,7 @@ const Home: React.FC = () => {
     <div className="flex flex-col min-h-screen">
       <Navbar />
       <div className="flex flex-grow">
-        <div className="w-2/5 rounded-lg bg-linen overflow-hidden">
-          <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: "url('/images/profile.jpeg')" }}></div>
-        </div>
+        <div className="w-2/5 bg-cover bg-center" style={{ backgroundImage: "url('/images/profile.jpeg')" }}></div>
         <div className="w-3/5 flex flex-col justify-center items-center bg-linen">
           <div className="text-center">
             <h1 className="text-6xl font-bold text-amethyst">I&apos;m Mrinaal Arora</h1>
