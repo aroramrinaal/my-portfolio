@@ -9,6 +9,7 @@ const Home: React.FC = () => {
         <div className="w-2/5 bg-cover bg-center" style={{ backgroundImage: "url('/images/profile.jpeg')" }}></div>
         <div className="w-3/5 flex flex-col justify-center items-center bg-linen">
           <div className="text-center">
+            <h1 className="text-6xl font-bold text-darkPurple">Hello!</h1>
             <h1 className="text-6xl font-bold text-amethyst">I&apos;m Mrinaal Arora</h1>
             <p className="text-2xl mt-4 text-gray-700"></p>
           </div>
