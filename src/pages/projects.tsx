@@ -12,7 +12,7 @@ const Projects: React.FC = () => {
           <ProjectCard
             title="Spotistats"
             description="A brief description of the first project."
-            imageUrl="/images/project1.jpg"
+            imageUrl="/images/project1.jpeg"
             projectUrl="https://github.com/aroramrinaal/spotistats/"
           />
         </section>
