@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-const Navbar: React.FC = () => {
+const Navbar = () => {
     return (
         <nav className="border-gray-200 bg-linen dark:bg-gray-800 dark:border-gray-700">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
