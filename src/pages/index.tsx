@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Home: React.FC = () => {
   return (
-    <div className="flex flex-col min-h-screen bg-linen">
+    <div className="flex flex-col min-h-screen bg-amethyst">
       <Navbar />
       <div className="flex flex-grow items-center justify-center">
         <div className="w-2/5 flex items-center justify-center">
