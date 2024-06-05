@@ -33,6 +33,11 @@ const Navbar: React.FC = () => {
                             <a href="https://drive.google.com/file/d/1yjz-xb2dyYpmFSMmRzpuR92McE6jnYcJ/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="block py-2 px-3 md:p-0 text-lg text-black rounded md:hover:bg-transparent md:border-0 dark:text-amethyst">Resume</a>
                         </li>
                         <li>
+                            <Link href="/about">
+                                <a className="block py-2 px-3 md:p-0 text-lg text-black rounded md:hover:bg-transparent md:border-0 dark:text-amethyst">About</a>
+                            </Link>
+                        </li>
+                        <li>
                             <Link href="/contact">
                                 <a className="block py-2 px-3 md:p-0 text-lg text-black rounded md:hover:bg-transparent md:border-0 dark:text-amethyst">Contact</a>
                             </Link>
