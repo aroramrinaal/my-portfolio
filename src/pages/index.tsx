@@ -11,13 +11,14 @@ const Home: React.FC = () => {
           <img 
             src="/images/profile.jpeg" 
             alt="Profile Picture" 
-            className="w-3/4 h-auto rounded-full border-4 border-white shadow-lg" 
+            className="w-64 h-64 rounded-full border-4 border-white shadow-lg object-cover" 
           />
         </div>
         <div className="w-3/5 flex flex-col justify-center items-start p-8">
           <div>
-            <h1 className="text-5xl font-bold text-black mb-4">Welcome to My Portfolio</h1>
-            <p className="text-xl text-amethyst mb-8">
+            <h1 className="text-5xl font-bold text-black mb-4">Hello!</h1>
+            <h2 className="text-6xl font-bold text-amethyst mb-4">I&apos;m Mrinaal Arora</h2>
+            <p className="text-sm text-black mb-8">
               Explore my diverse range of projects and discover the creative solutions I&apos;ve developed for clients across various industries.
             </p>
             <div className="flex space-x-4">
