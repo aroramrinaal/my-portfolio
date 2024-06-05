@@ -32,7 +32,7 @@ const Home: React.FC = () => {
                 </a>
               </Link>
               <Link href="/contact">
-                <a className="px-6 py-3 text-lg font-medium text-black bg-white border border-black rounded-md hover:bg-gray-100">
+                <a className="px-6 py-3 text-lg font-medium text-white bg-amethyst border border-black rounded-md hover:bg-gray-100">
                   Contact Me
                 </a>
               </Link>
