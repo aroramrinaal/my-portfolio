@@ -10,7 +10,7 @@ interface ProjectCardProps {
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, imageUrl, projectUrl }) => {
   return (
-    <div className="bg-linen rounded-lg overflow-hidden shadow-md dark:bg-gray-900 dark:text-gray-200">
+    <div className="bg-linen rounded-lg overflow-hidden shadow-md dark:bg-gray-900 dark:text-gray-200 border border-black">
       <Link href={projectUrl} className="block" prefetch={false}>
         <img src={imageUrl} alt={title} width={300} height={200} className="w-full h-48 object-cover" />
       </Link>
