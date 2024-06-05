@@ -10,7 +10,7 @@ const Projects: React.FC = () => {
         <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <ProjectCard
             title="Spotistats"
-            description="A brief description of the first project."
+            description="Analyzing Spotify Listening Habits"
             imageUrl="/images/project1.jpeg"
             projectUrl="https://github.com/aroramrinaal/spotistats/"
           />
