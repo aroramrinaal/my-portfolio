@@ -8,11 +8,15 @@ const Home: React.FC = () => {
       <Navbar />
       <div className="flex flex-grow items-center justify-center">
         <div className="w-2/5 flex items-center justify-center">
-          <img 
-            src="/images/profile.jpeg" 
-            alt="Profile Picture" 
-            className="w-64 h-64 rounded-full border-4 border-white shadow-lg object-cover" 
-          />
+          <div className="relative">
+            <div className="w-96 h-96 rounded-full overflow-hidden border-4 border-linen shadow-lg">
+              <img 
+                src="/images/profile.jpeg" 
+                alt="Profile Picture" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
         </div>
         <div className="w-3/5 flex flex-col justify-center items-start p-8">
           <div>
