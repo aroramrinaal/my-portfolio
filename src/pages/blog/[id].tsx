@@ -11,7 +11,7 @@ interface BlogPost {
 
 const blogPosts: BlogPost[] = [
   { 
-    id: '1', 
+    id: 'why-nextjs', 
     title: 'Why I used Next.js for building my portfolio page?', 
     content: `
       <h2>Why I Used Next.js for Building My Portfolio Page?</h2>
