@@ -6,11 +6,13 @@ interface ProjectCardProps {
   description: string;
   imageUrl: string;
   projectUrl: string;
+  githubUrl: string;
+  externalLinkUrl: string;
 }
 
-const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, imageUrl, projectUrl }) => {
+const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, imageUrl, projectUrl, githubUrl, externalLinkUrl }) => {
   return (
-    <div className="bg-linen rounded-lg overflow-hidden shadow-md dark:bg-gray-900 dark:text-gray-200 border border-black">
+    <div className="bg-linen rounded-lg overflow-hidden shadow-md dark:bg-gray-900 dark:text-gray-200 border border-black relative">
       <Link href={projectUrl} className="block" prefetch={false}>
         <img src={imageUrl} alt={title} width={300} height={200} className="w-full h-48 object-cover" />
       </Link>
@@ -21,14 +23,24 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, imageUrl,
           </Link>
         </h3>
         <p className="text-gray-500 dark:text-gray-400 mb-4">{description}</p>
-        <Link
-          href={projectUrl}
-          className="inline-flex items-center text-primary-500 hover:text-amethyst dark:text-primary-400 dark:hover:text-primary-500"
-          prefetch={false}
-        >
-          View Project
-          <ArrowRightIcon className="w-4 h-4 ml-1" />
-        </Link>
+        <div className="flex justify-between items-center">
+          <Link
+            href={projectUrl}
+            className="inline-flex items-center text-primary-500 hover:text-amethyst dark:text-primary-400 dark:hover:text-primary-500"
+            prefetch={false}
+          >
+            View Project
+            <ArrowRightIcon className="w-4 h-4 ml-1" />
+          </Link>
+          <div className="flex space-x-4">
+            <Link href={githubUrl} className="block" prefetch={false}>
+              <img src="/github-icon.svg" alt="GitHub" className="w-6 h-6" />
+            </Link>
+            <Link href={externalLinkUrl} className="block" prefetch={false}>
+              <img src="/external-link-icon.svg" alt="External Link" className="w-6 h-6" />
+            </Link>
+          </div>
+        </div>
       </div>
     </div>
   );

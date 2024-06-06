@@ -13,12 +13,16 @@ const Projects: React.FC = () => {
             description="Analyzing Spotify Listening Habits"
             imageUrl="/images/project1.jpeg"
             projectUrl="https://github.com/aroramrinaal/spotistats/"
+            githubUrl='https://github.com/aroramrinaal/spotistats/'
+            externalLinkUrl='#'
           />
           <ProjectCard
             title="Portfolio Website"
             description="Personal Portfolio Website"
             imageUrl="/images/project2.jpeg"
             projectUrl="https://github.com/aroramrinaal/my-portfolio"
+            githubUrl='https://github.com/aroramrinaal/my-portfolio'
+            externalLinkUrl='https://aroramrinaal.vercel.app/'
           />
         </section>
       </main>
