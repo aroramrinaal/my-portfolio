@@ -35,10 +35,10 @@ const BlogPostPage: React.FC<BlogPostProps> = ({ post }) => {
   return (
     <div className="flex flex-col min-h-screen bg-linen">
       <Navbar />
-      <div className="flex-grow p-8">
-        <h1 className="text-4xl font-bold mb-4">{post.title}</h1>
-        <p className="text-gray-600 mb-4">{post.date}</p>
-        <div className="text-gray-700" dangerouslySetInnerHTML={{ __html: post.content }} />
+      <div className="flex-grow p-8 max-w-4xl mx-auto">
+        <h1 className="text-4xl font-bold mb-2">{post.title}</h1>
+        <p className="text-gray-600 mb-8">{post.date}</p>
+        <div className="text-gray-700 prose lg:prose-xl" dangerouslySetInnerHTML={{ __html: post.content }} />
       </div>
     </div>
   );
