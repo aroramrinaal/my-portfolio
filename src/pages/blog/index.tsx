@@ -21,7 +21,7 @@ const Blog: React.FC = () => {
       <Navbar />
       <div className="flex flex-grow items-center justify-center">
         <div className="p-8 max-w-2xl w-full">
-          <h1 className="text-4xl font-bold mb-8 text-center">Read My Blog</h1>
+          <h1 className="text-5xl text-amethyst font-bold mb-8 text-center">Read My Blog</h1>
           <ul>
             {blogPosts.map((post) => (
               <li key={post.id} className="mb-8">
