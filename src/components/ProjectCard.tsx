@@ -34,10 +34,10 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, imageUrl,
           </Link>
           <div className="flex space-x-4">
             <Link href={githubUrl} className="block" prefetch={false}>
-              <img src="/github-icon.svg" alt="GitHub" className="w-6 h-6" />
+              <img src="public/images/github-icon.svg" alt="GitHub" className="w-6 h-6" />
             </Link>
             <Link href={externalLinkUrl} className="block" prefetch={false}>
-              <img src="/external-link-icon.svg" alt="External Link" className="w-6 h-6" />
+              <img src="public/images/external-link-icon.svg" alt="External Link" className="w-6 h-6" />
             </Link>
           </div>
         </div>
