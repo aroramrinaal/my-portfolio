@@ -15,10 +15,10 @@ const Projects: React.FC = () => {
             projectUrl="https://github.com/aroramrinaal/spotistats/"
           />
           <ProjectCard
-            title="Project 2"
-            description="A brief description of the second project."
+            title="Portfolio Website"
+            description="Personal Portfolio Website"
             imageUrl="/images/project2.jpeg"
-            projectUrl="#"
+            projectUrl="https://github.com/aroramrinaal/my-portfolio"
           />
         </section>
       </main>
