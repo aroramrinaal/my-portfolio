@@ -10,6 +10,7 @@ interface BlogPost {
 
 const blogPosts: BlogPost[] = [
   { id: 'why-nextjs', title: 'Why I used Next.js for building my portfolio page?', description: 'Learn why Next.js was chosen for building this portfolio page.' },
+  {id: 'spotistats-project', title: 'Insights from Spotify Streaming History: The Spotistats Project', description: 'Data analysis and visualization project based on your Spotify streaming history.' },
 ];
 
 const Blog: React.FC = () => {
