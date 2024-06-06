@@ -17,7 +17,7 @@ const blogPosts: BlogPost[] = [
 
 const Blog: React.FC = () => {
   return (
-    <div className="flex flex-col min-h-screen bg-black">
+    <div className="flex flex-col min-h-screen bg-linen">
       <Navbar />
       <div className="flex flex-grow items-center justify-center">
         <div className="p-8 max-w-2xl w-full">
