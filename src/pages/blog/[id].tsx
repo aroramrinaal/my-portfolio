@@ -14,8 +14,6 @@ const blogPosts: BlogPost[] = [
     id: 'why-nextjs', 
     title: 'Why I used Next.js for building my portfolio page?', 
     content: `
-      <h2>Why I Used Next.js for Building My Portfolio Page?</h2>
-      <p><strong>June 6, 2024</strong></p>
       <p>Creating a portfolio website involves choosing the right tools and technologies to ensure the site is fast, SEO-friendly, and easy to maintain. After evaluating several options, I decided to use Next.js for building my portfolio page. Here's why:</p>
 
       <h3>Next.js Features</h3>
@@ -76,7 +74,12 @@ const blogPosts: BlogPost[] = [
       <p>Next.js has proven to be a powerful and flexible framework for building my portfolio website. Its features, performance, and developer-friendly environment make it an ideal choice for creating a professional and engaging online presence. If you're considering building a portfolio or any web application, I highly recommend giving Next.js a try.</p>
     `, 
     date: 'June 6, 2024',
-  },
+  },{
+    id: 'spotistats-project',
+    title: 'Insights from Spotify Streaming History: The Spotistats Project',
+    content: ``,
+    date: 'June 6, 2024',
+  }
 ];
 
 interface BlogPostProps {
