@@ -36,7 +36,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, imageUrl,
             <Link href={githubUrl} className="block" prefetch={false}>
               <img src="/github-icon.svg" alt="GitHub" className="w-6 h-6" />
             </Link>
-            <Link href={externalLinkUrl} className="block" prefetch={false}>
+            <Link href={externalLinkUrl} className="block hover: text-amethyst" prefetch={false}>
               <img src="/external-link-icon.svg" alt="External Link" className="w-6 h-6" />
             </Link>
           </div>
