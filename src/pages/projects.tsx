@@ -12,9 +12,9 @@ const Projects: React.FC = () => {
             title="Spotistats"
             description="Analyzing Spotify Listening Habits"
             imageUrl="/images/project1.jpeg"
-            projectUrl="https://aroramrinaal.vercel.app/blog/spotistats-project"
+            projectUrl="https://github.com/aroramrinaal/spotistats/"
             githubUrl='https://github.com/aroramrinaal/spotistats/'
-            externalLinkUrl='#'
+            externalLinkUrl='https://aroramrinaal.vercel.app/blog/spotistats-project'
           />
           <ProjectCard
             title="Portfolio Website"
