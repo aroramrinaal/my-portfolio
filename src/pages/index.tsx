@@ -23,7 +23,7 @@ const Home: React.FC = () => {
             <h1 className="text-5xl font-bold text-black mb-4">Hello!</h1>
             <h2 className="text-6xl font-bold text-amethyst mb-4">I&apos;m Mrinaal Arora</h2>
             <p className="text-sm text-black mb-8">
-              Explore my diverse range of projects and discover the creative solutions I&apos;ve developed for clients across various industries.
+              Explore my diverse range of projects and discover the creative solutions I&apos;ve developed.
             </p>
             <div className="flex space-x-4">
               <Link href="/projects">
