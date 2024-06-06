@@ -20,30 +20,6 @@ const Projects: React.FC = () => {
             imageUrl="/images/project2.jpeg"
             projectUrl="#"
           />
-          <ProjectCard
-            title="Project 3"
-            description="A brief description of the third project."
-            imageUrl="/images/project3.jpeg"
-            projectUrl="#"
-          />
-          <ProjectCard
-            title="Project 4"
-            description="A brief description of the fourth project."
-            imageUrl="/images/project4.jpeg"
-            projectUrl="#"
-          />
-          <ProjectCard
-            title="Project 5"
-            description="A brief description of the fifth project."
-            imageUrl="/images/project5.jpeg"
-            projectUrl="#"
-          />
-          <ProjectCard
-            title="Project 6"
-            description="A brief description of the sixth project."
-            imageUrl="/images/project6.jpeg"
-            projectUrl="#"
-          />
         </section>
       </main>
     </div>
