@@ -36,8 +36,8 @@ const BlogPostPage: React.FC<BlogPostProps> = ({ post }) => {
     <div className="flex flex-col min-h-screen bg-linen">
       <Navbar />
       <div className="flex-grow p-8 max-w-4xl mx-auto">
-        <h1 className="text-4xl font-bold mb-2">{post.title}</h1>
-        <p className="text-gray-600 mb-8">{post.date}</p>
+        <h1 className="text-4xl text-amethyst font-bold mb-2">{post.title}</h1>
+        <p className="text-black mb-8">{post.date}</p>
         <div className="text-gray-700 prose lg:prose-xl" dangerouslySetInnerHTML={{ __html: post.content }} />
       </div>
     </div>
