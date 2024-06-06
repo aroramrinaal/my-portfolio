@@ -9,7 +9,7 @@ interface BlogPost {
 }
 
 const blogPosts: BlogPost[] = [
-  { id: 'why-nextjs', title: 'Why I used Next.js for building my portfolio page?', description: 'Learn why Next.js was chosen for building this portfolio page.' },
+  { id: '1', title: 'Why I used Next.js for building my portfolio page?', description: 'Learn why Next.js was chosen for building this portfolio page.' },
 ];
 
 const Blog: React.FC = () => {
