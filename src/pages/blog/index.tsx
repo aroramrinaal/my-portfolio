@@ -2,7 +2,6 @@ import React from 'react';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 
-
 interface BlogPost {
   id: string;
   title: string;
@@ -10,9 +9,7 @@ interface BlogPost {
 }
 
 const blogPosts: BlogPost[] = [
-  { id: '1', title: 'On Developer Marketing', description: 'This is a description of the first blog post.' },
-  { id: '2', title: 'How I\'m Writing CSS in 2024', description: 'This is a description of the second blog post.' },
-  { id: '3', title: '2023 Blog Refresh', description: 'This is a description of the third blog post.' },
+  { id: '1', title: 'Why I used Next.js for building my portfolio page?', description: 'Learn why Next.js was chosen for building this portfolio page.' },
 ];
 
 const Blog: React.FC = () => {
