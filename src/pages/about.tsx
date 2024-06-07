@@ -10,7 +10,7 @@ const About: React.FC = () => {
         <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
           <div className="flex flex-col items-center md:items-start md:order-2">
             <div className="rounded-lg overflow-hidden w-full aspect-square md:max-w-[300px] md:ml-auto">
-              <img src="/images/profile.jpeg" alt="Profile Picture" className="object-cover w-full h-full" />
+              <img src="/images/about-page-image.jpeg" alt="Profile Picture" className="object-cover w-full h-full" />
             </div>
           </div>
           <div>
