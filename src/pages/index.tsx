@@ -9,7 +9,7 @@ const Home: React.FC = () => {
       <div className="flex flex-grow items-center justify-center">
         <div className="w-2/5 flex items-center justify-center">
           <div className="relative">
-            <div className="w-96 h-96 rounded-full overflow-hidden border-4 border-linen shadow-lg">
+            <div className="w-96 h-96 rounded-full overflow-hidden shadow-lg">
               <img 
                 src="/images/profile.jpeg" 
                 alt="Profile Picture" 
