@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Navbar = () => {
     return (
@@ -7,7 +8,7 @@ const Navbar = () => {
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <Link href="/">
                     <a className="flex items-center space-x-3 rtl:space-x-reverse">
-                        <img src="/mylogo.svg" className="h-8" alt="MyLogo" />
+                        <Image src="/mylogo.svg" alt="MyLogo" width={32} height={32} />
                         <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Mrinaal Arora</span>
                     </a>
                 </Link>
