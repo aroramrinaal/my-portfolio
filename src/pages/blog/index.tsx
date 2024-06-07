@@ -24,7 +24,7 @@ const Blog: React.FC = () => {
             {blogPosts.map((post) => (
               <li key={post.id} className="mb-8">
                 <Link href={`/blog/${post.id}`}>
-                  <a className="text-2xl font-semibold text-black hover:underline">
+                  <a className="text-2xl font-semibold text-darkPurple hover:underline">
                     {post.title}
                   </a>
                 </Link>
