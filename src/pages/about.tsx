@@ -9,9 +9,9 @@ const About: React.FC = () => {
       <main className="flex-grow py-12 md:py-16 lg:py-20 px-4 md:px-6">
         <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
           <div className="flex flex-col items-center md:items-start md:order-2">
-            <div className="rounded-lg overflow-hidden w-full aspect-square md:max-w-[300px] md:ml-auto">
-              <img src="/images/about-page-image.jpeg" alt="Profile Picture" className="object-cover w-full h-full" />
-            </div>
+          <div className="rounded-lg overflow-hidden w-full aspect-square md:w-[400px] md:h-[400px] md:ml-auto">
+            <img src="/images/about-page-image.jpeg" alt="Profile Picture" className="object-cover w-full h-full" />
+          </div>
           </div>
           <div>
             <div className="space-y-4">
