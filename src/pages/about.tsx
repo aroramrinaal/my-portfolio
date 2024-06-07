@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import exp from "constants";
 import React from "react";
 
 const About = () => {
@@ -8,3 +9,5 @@ const About = () => {
     </div>
   );
 };
+
+export default About;
