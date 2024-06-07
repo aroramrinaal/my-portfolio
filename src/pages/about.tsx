@@ -21,7 +21,7 @@ const About: React.FC = () => {
               </p>
             </div>
             <div className="mt-8 space-y-4">
-              <h2 className="text-2xl font-bold text-amethyst">Career</h2>
+              <h2 className="text-3xl font-bold text-amethyst">Career</h2>
               <p className="text-gray-700">
                 I started my career as a front-end developer, honing my skills in HTML, CSS, and JavaScript. Over the years, I&apos;ve expanded my expertise to include back-end development, database management, and project management. I&apos;ve worked on a wide range of projects, from small personal websites to large-scale enterprise applications.
               </p>
@@ -30,7 +30,7 @@ const About: React.FC = () => {
               </p>
             </div>
             <div className="mt-8 space-y-4">
-              <h2 className="text-2xl font-bold text-amethyst">Let&apos;s Connect</h2>
+              <h2 className="text-3xl font-bold text-amethyst">Let&apos;s Connect</h2>
               <div className="flex items-center space-x-4">
                 <Link
                   href="https://www.linkedin.com/in/mrinaalarora/"
@@ -50,7 +50,7 @@ const About: React.FC = () => {
                   href="https://x.com/mrinaalarora25"
                   className="inline-flex items-center justify-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
                 >
-                  <img src="/twitter.svg" alt="Twitter" className="w-5 h-5 mr-2" />
+                  <img src="/twitter-x-white.svg" alt="Twitter" className="w-5 h-5 mr-2" />
                   Twitter
                 </Link>
               </div>
