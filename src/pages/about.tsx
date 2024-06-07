@@ -11,12 +11,12 @@ const About: React.FC = () => {
           <div className="text-center mb-8">
             <img src="/images/profile.jpeg" alt="Profile Picture" className="w-40 h-40 rounded-full mx-auto" />
             <h1 className="text-4xl font-bold mt-4">Hi, I&apos;m Mrinaal Arora</h1>
-            <p className="text-lg text-gray-600 mt-2">@mrinaal_arora</p>
+            <p className="text-lg text-gray-600 mt-2">@aroramrinaal</p>
           </div>
           <div className="mb-8">
             <h2 className="text-2xl font-bold">Short Bio</h2>
             <p className="mt-2 text-gray-700">
-              I&apos;m a product maker (... and full-stack developer) currently based in Arizona, USA. I&apos;m passionate about building products that help people and make a difference in the world. I&apos;m also a big fan of open source software - which is why almost everything I build is open source! I love educating others about technology and programming, which is why I&apos;m a content creator and write blogs in my free time. I mainly write code in the T3 Stack.
+              I&apos;m a product maker (... and full-stack developer) currently based in Arizona, USA. I&apos;m passionate about building products that help people and make a difference in the world. I&apos;m also a big fan of open source software. I mainly write code in the T3 Stack.
             </p>
           </div>
           <div className="mb-8">
