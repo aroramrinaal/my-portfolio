@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Home: React.FC = () => {
   return (
@@ -9,13 +10,16 @@ const Home: React.FC = () => {
       <div className="flex flex-grow items-center justify-center">
         <div className="w-2/5 flex items-center justify-center">
           <div className="relative">
-            <div className="w-96 h-96 rounded-full overflow-hidden shadow-lg">
-              <img 
-                src="/images/profile.jpeg" 
-                alt="Profile Picture" 
-                className="w-full h-full object-cover"
-              />
-            </div>
+          <div className="relative w-96 h-96 rounded-full overflow-hidden shadow-lg">
+            {/* Using Next.js Image component */}
+            <Image
+              src="/images/profile.jpeg"
+              alt="Profile Picture"
+              layout="fill"  // This will fill the container while respecting object-cover via CSS
+              objectFit="cover"  // This replicates the object-cover behavior of a regular img tag
+              className="rounded-full"  // Ensuring the image remains rounded as per your CSS classes
+            />
+          </div>
           </div>
         </div>
         <div className="w-3/5 flex flex-col justify-center items-start p-8">

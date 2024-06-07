@@ -11,12 +11,11 @@ const About: React.FC = () => {
         <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
           <div className="flex flex-col items-center md:items-start md:order-2">
           <div className="rounded-lg overflow-hidden w-full md:w-[400px] md:h-[400px] md:ml-auto">
-              {/* Next.js Image component with specified width and height */}
               <Image 
                 src="/images/about-page-image.jpeg"
                 alt="Profile Picture"
-                width={400} // Specify the width
-                height={400} // Specify the height
+                width={400}
+                height={400}
                 className="object-cover"
                 layout="responsive"
               />
