@@ -17,7 +17,7 @@ const About: React.FC = () => {
             <div className="space-y-4">
               <h1 className="text-3xl md:text-4xl font-bold text-amethyst">About Me</h1>
               <p className="text-gray-700 text-lg">
-                Hi, I&apos;m Mrinaal Arora, a passionate web developer with a keen eye for design. I&apos;ve been creating beautiful and functional websites for over 10 years, and I&apos;m excited to share my journey with you.
+              Hi, I&apos;m Mrinaal Arora, a dedicated Computer Science student at Arizona State University with a perfect GPA. With hands-on experience as a Research Aide and Undergraduate Teaching Assistant, I have honed my skills in both academic research and educational support. My passion for technology is reflected in my diverse projects, ranging from data analysis tools to eco-friendly web applications. I am committed to leveraging my technical expertise to drive innovation and positive change in the world. Explore my journey and projects to see how I blend creativity with technology to solve real-world problems.
               </p>
             </div>
             <div className="mt-8 space-y-4">
