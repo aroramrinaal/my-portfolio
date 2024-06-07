@@ -23,10 +23,10 @@ const About: React.FC = () => {
             <div className="mt-8 space-y-4">
               <h2 className="text-3xl font-bold text-amethyst">Career</h2>
               <p className="text-gray-700">
-                I started my career as a front-end developer, honing my skills in HTML, CSS, and JavaScript. Over the years, I&apos;ve expanded my expertise to include back-end development, database management, and project management. I&apos;ve worked on a wide range of projects, from small personal websites to large-scale enterprise applications.
+                I embarked on my career journey at Arizona State University, where I have been immersed in the world of Computer Science, achieving a stellar 4.0 GPA. My professional experience began with roles such as Research Aide at the School of Life Sciences and the Biodesign Center for Applied Structural Discovery, where I contributed to significant projects like the &quot;Digitization TCN&quot; and developed proficiency in advanced laboratory techniques. As an Undergraduate Teaching Assistant at the Fulton Schools of Engineering, I played a pivotal role in enhancing the educational experience for engineering students through collaborative learning activities.
               </p>
               <p className="text-gray-700">
-                My passion for technology and design has led me to stay up-to-date with the latest industry trends and best practices. I&apos;m always eager to learn new skills and take on challenging projects that push me to grow as a developer.
+                Beyond academia, my passion for technology is showcased through various innovative projects. I developed tools like Spotistats for analyzing Spotify data and Ecocoin, a Chrome extension promoting eco-friendly shopping. My technical repertoire includes Python, HTML/CSS, JavaScript, and frameworks like Django and NodeJS. My work has been recognized at prestigious events such as YHacks and MakeHarvard. I am committed to staying abreast of the latest industry trends, continually learning new skills, and tackling challenging projects that drive both personal and technological growth.
               </p>
             </div>
             <div className="mt-8 space-y-4">
