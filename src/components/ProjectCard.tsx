@@ -21,7 +21,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, imageUrl,
       </Link>
       <div className="p-4">
         <h3 className="text-lg font-semibold mb-2">
-          <Link href={projectUrl} className="hover:text-primary-500 dark:hover:text-primary-400" prefetch={false}>
+          <Link href={projectUrl} className="text-darkPurple" prefetch={false}>
             {title}
           </Link>
         </h3>
