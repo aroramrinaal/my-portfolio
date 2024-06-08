@@ -15,7 +15,7 @@ const Projects: React.FC = () => {
             projectUrl="https://github.com/aroramrinaal/spotistats/"
             githubUrl='https://github.com/aroramrinaal/spotistats/'
             externalLinkUrl='https://aroramrinaal.vercel.app/blog/spotistats-project'
-            isHackathonProject={true}
+            isHackathonProject={false}
           />
           <ProjectCard
             title="Portfolio Website"
@@ -25,6 +25,15 @@ const Projects: React.FC = () => {
             githubUrl='https://github.com/aroramrinaal/my-portfolio'
             externalLinkUrl='https://aroramrinaal.vercel.app/'
             isHackathonProject={false}
+          />
+          <ProjectCard
+            title="Powerstride"
+            description="Wearable tech that turns your steps into electricity"
+            imageUrl="/images/project3.jpeg"
+            projectUrl="https://devpost.com/software/powerstride"
+            githubUrl='https://github.com/aroramrinaal/PowerStride'
+            externalLinkUrl='https://devpost.com/software/powerstride'
+            isHackathonProject={true}
           />
         </section>
       </main>
