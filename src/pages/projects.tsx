@@ -35,6 +35,15 @@ const Projects: React.FC = () => {
             externalLinkUrl='https://devpost.com/software/powerstride'
             isHackathonProject={true}
           />
+          <ProjectCard
+            title="Freshuntil"
+            description="Minimize Waste & Maximize Taste."
+            imageUrl="/images/project4.jpeg"
+            projectUrl='https://devpost.com/software/freshuntil-4ol2qy'
+            githubUrl='https://github.com/mekhiHart/LAHacks-2024/'
+            externalLinkUrl='https://devpost.com/software/freshuntil-4ol2qy'
+            isHackathonProject={true}
+          />
         </section>
       </main>
     </div>
