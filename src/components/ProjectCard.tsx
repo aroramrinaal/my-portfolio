@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import HackathonSticker from './HackathonSticker';
 
 interface ProjectCardProps {
   title: string;
@@ -8,13 +9,15 @@ interface ProjectCardProps {
   projectUrl: string;
   githubUrl: string;
   externalLinkUrl: string;
+  isHackathonProject: boolean;
 }
 
-const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, imageUrl, projectUrl, githubUrl, externalLinkUrl }) => {
+const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, imageUrl, projectUrl, githubUrl, externalLinkUrl, isHackathonProject }) => {
   return (
     <div className="bg-linen rounded-lg overflow-hidden shadow-md dark:bg-gray-900 dark:text-gray-200 border border-black relative">
+      {isHackathonProject && <HackathonSticker />}
       <Link href={projectUrl} className="block" prefetch={false}>
-        <img src={imageUrl} alt={title} width={300} height={200} className="w-full h-48 object-cover" />
+        <img src={imageUrl} alt={title} className="w-full h-48 object-cover" />
       </Link>
       <div className="p-4">
         <h3 className="text-lg font-semibold mb-2">
@@ -24,13 +27,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, imageUrl,
         </h3>
         <p className="text-gray-500 dark:text-gray-400 mb-4">{description}</p>
         <div className="flex justify-between items-center">
-          <Link
-            href={projectUrl}
-            className="inline-flex items-center text-primary-500 hover:text-amethyst dark:text-primary-400 dark:hover:text-primary-500"
-            prefetch={false}
-          >
+          <Link href={projectUrl} className="inline-flex items-center text-primary-500 hover:text-primary-600 dark:text-primary-400 dark:hover:text-primary-500" prefetch={false}>
             View Project
-            <ArrowRightIcon className="w-4 h-4 ml-1" />
           </Link>
           <div className="flex space-x-4">
             <Link href={githubUrl} className="block" prefetch={false}>
