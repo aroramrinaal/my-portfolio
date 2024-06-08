@@ -14,7 +14,7 @@ interface ProjectCardProps {
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, imageUrl, projectUrl, githubUrl, externalLinkUrl, isHackathonProject }) => {
   return (
-    <div className="bg-linen rounded-lg overflow-hidden shadow-md dark:bg-gray-900 dark:text-gray-200 border border-black relative">
+    <div className="bg-linen rounded-lg overflow-hidden shadow-md border border-black relative">
       {isHackathonProject && <HackathonSticker />}
       <Link href={projectUrl} className="block" prefetch={false}>
         <img src={imageUrl} alt={title} className="w-full h-48 object-cover" />
