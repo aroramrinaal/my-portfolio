@@ -15,6 +15,7 @@ const Projects: React.FC = () => {
             projectUrl="https://github.com/aroramrinaal/spotistats/"
             githubUrl='https://github.com/aroramrinaal/spotistats/'
             externalLinkUrl='https://aroramrinaal.vercel.app/blog/spotistats-project'
+            isHackathonProject={true}
           />
           <ProjectCard
             title="Portfolio Website"
@@ -23,6 +24,7 @@ const Projects: React.FC = () => {
             projectUrl="https://github.com/aroramrinaal/my-portfolio"
             githubUrl='https://github.com/aroramrinaal/my-portfolio'
             externalLinkUrl='https://aroramrinaal.vercel.app/'
+            isHackathonProject={false}
           />
         </section>
       </main>
