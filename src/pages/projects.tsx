@@ -45,12 +45,12 @@ const Projects: React.FC = () => {
             isHackathonProject={true}
           />
           <ProjectCard
-          title=''
-          description=''
-          imageUrl=''
-          projectUrl=''
-          githubUrl=''
-          externalLinkUrl=''
+          title='EcoCoin'
+          description='Earn Green for Going Green'
+          imageUrl='/images/project5.jpeg'
+          projectUrl='https://devpost.com/software/ecocoin'
+          githubUrl='https://github.com/aroramrinaal/EcoCoin'
+          externalLinkUrl='https://devpost.com/software/ecocoin'
           isHackathonProject={true}
           />
         </section>
