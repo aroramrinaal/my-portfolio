@@ -12,7 +12,7 @@ const About: React.FC = () => {
           <div className="flex flex-col items-center md:items-start md:order-2">
           <div className="rounded-lg overflow-hidden w-full md:w-[400px] md:h-[400px] md:ml-auto">
               <Image 
-                src="/images/about-page-image.jpeg"
+                src="/images/about-page-image.webp"
                 alt="Profile Picture"
                 width={400}
                 height={400}

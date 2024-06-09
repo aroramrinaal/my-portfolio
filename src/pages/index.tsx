@@ -12,7 +12,7 @@ const Home: React.FC = () => {
           <div className="relative">
           <div className="relative w-96 h-96 rounded-full overflow-hidden shadow-lg">
             <Image
-              src="/images/profile.jpeg"
+              src="/images/profile.webp"
               alt="Profile Picture"
               layout="fill"
               objectFit="cover"
