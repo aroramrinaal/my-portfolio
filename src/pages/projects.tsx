@@ -11,7 +11,7 @@ const Projects: React.FC = () => {
           <ProjectCard
             title="Spotistats"
             description="Analyzing Spotify Listening Habits"
-            imageUrl="/images/project1.jpeg"
+            imageUrl="/images/project1.webp"
             projectUrl="https://github.com/aroramrinaal/spotistats/"
             githubUrl='https://github.com/aroramrinaal/spotistats/'
             externalLinkUrl='https://aroramrinaal.vercel.app/blog/spotistats-project'
@@ -20,7 +20,7 @@ const Projects: React.FC = () => {
           <ProjectCard
             title="Portfolio Website"
             description="Personal Portfolio Website"
-            imageUrl="/images/project2.jpeg"
+            imageUrl="/images/project2.webp"
             projectUrl="https://github.com/aroramrinaal/my-portfolio"
             githubUrl='https://github.com/aroramrinaal/my-portfolio'
             externalLinkUrl='https://aroramrinaal.vercel.app/'
@@ -29,7 +29,7 @@ const Projects: React.FC = () => {
           <ProjectCard
             title="Powerstride"
             description="Wearable tech that turns your steps into electricity"
-            imageUrl="/images/project3.jpeg"
+            imageUrl="/images/project3.webp"
             projectUrl="https://devpost.com/software/powerstride"
             githubUrl='https://github.com/aroramrinaal/PowerStride'
             externalLinkUrl='https://devpost.com/software/powerstride'
@@ -38,7 +38,7 @@ const Projects: React.FC = () => {
           <ProjectCard
             title="Freshuntil"
             description="Minimize Waste & Maximize Taste."
-            imageUrl="/images/project4.jpeg"
+            imageUrl="/images/project4.webp"
             projectUrl='https://devpost.com/software/freshuntil-4ol2qy'
             githubUrl='https://github.com/mekhiHart/LAHacks-2024/'
             externalLinkUrl='https://devpost.com/software/freshuntil-4ol2qy'
@@ -47,7 +47,7 @@ const Projects: React.FC = () => {
           <ProjectCard
           title='EcoCoin'
           description='Earn Green for Going Green'
-          imageUrl='/images/project5.jpeg'
+          imageUrl='/images/project5.webp'
           projectUrl='https://devpost.com/software/ecocoin'
           githubUrl='https://github.com/aroramrinaal/EcoCoin'
           externalLinkUrl='https://devpost.com/software/ecocoin'
