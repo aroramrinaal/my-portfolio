@@ -25,7 +25,7 @@ const About: React.FC = () => {
             <div className="space-y-4">
               <h1 className="text-4xl md:text-5xl font-bold text-amethyst">About Me</h1>
               <p className="text-gray-700 text-xl md:text-2xl">
-                Hi, I'm Mrinaal Arora, a dedicated Computer Science student at Arizona State University with a perfect GPA...
+                Hi, I&apos;m Mrinaal Arora, a dedicated Computer Science student at Arizona State University with a perfect GPA.
               </p>
             </div>
             <div className="mt-8 space-y-4">
@@ -45,7 +45,7 @@ const About: React.FC = () => {
               </div>
             </div>
             <div className="mt-8 space-y-4">
-              <h2 className="text-3xl font-bold text-amethyst">Let's Connect</h2>
+              <h2 className="text-3xl font-bold text-amethyst">Let&apos;s Connect</h2>
               <div className="flex items-center space-x-4">
                 <Link
                   href="https://www.linkedin.com/in/mrinaalarora/"
