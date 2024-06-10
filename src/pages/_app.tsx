@@ -1,5 +1,6 @@
 import { AppProps } from 'next/app';
 import Head from 'next/head';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import '@/styles/globals.css';
 
 function App({ Component, pageProps }: AppProps) {
@@ -11,6 +12,7 @@ function App({ Component, pageProps }: AppProps) {
         <meta name="description" content="Mrinaal Arora" />
       </Head>
       <Component {...pageProps} />
+      <SpeedInsights />
     </>
   );
 }
