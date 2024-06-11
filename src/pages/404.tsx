@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
+import exp from "constants";
 
 const NotFoundPage = () => {
   return (
@@ -9,3 +10,5 @@ const NotFoundPage = () => {
     </div>
   );
 }
+
+export default NotFoundPage;
