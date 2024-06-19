@@ -15,7 +15,6 @@ const Projects: React.FC = () => {
             projectUrl="https://github.com/aroramrinaal/spotistats/"
             githubUrl='https://github.com/aroramrinaal/spotistats/'
             externalLinkUrl='https://aroramrinaal.vercel.app/blog/spotistats-project'
-            isHackathonProject={false}
           />
           <ProjectCard
             title="Portfolio Website"
@@ -24,7 +23,6 @@ const Projects: React.FC = () => {
             projectUrl="https://github.com/aroramrinaal/my-portfolio"
             githubUrl='https://github.com/aroramrinaal/my-portfolio'
             externalLinkUrl='https://aroramrinaal.vercel.app/'
-            isHackathonProject={false}
           />
           <ProjectCard
             title="Powerstride"
@@ -33,7 +31,7 @@ const Projects: React.FC = () => {
             projectUrl="https://devpost.com/software/powerstride"
             githubUrl='https://github.com/aroramrinaal/PowerStride'
             externalLinkUrl='https://devpost.com/software/powerstride'
-            isHackathonProject={true}
+            stickerText='Made at MakeHarvard 2024'
           />
           <ProjectCard
             title="Freshuntil"
@@ -42,7 +40,7 @@ const Projects: React.FC = () => {
             projectUrl='https://devpost.com/software/freshuntil-4ol2qy'
             githubUrl='https://github.com/mekhiHart/LAHacks-2024/'
             externalLinkUrl='https://devpost.com/software/freshuntil-4ol2qy'
-            isHackathonProject={true}
+            stickerText='Made at LA Hacks 2024'
           />
           <ProjectCard
           title='EcoCoin'
@@ -51,7 +49,7 @@ const Projects: React.FC = () => {
           projectUrl='https://devpost.com/software/ecocoin'
           githubUrl='https://github.com/aroramrinaal/EcoCoin'
           externalLinkUrl='https://devpost.com/software/ecocoin'
-          isHackathonProject={true}
+          stickerText='Made at YHacks 2024'
           />
         </section>
       </main>
