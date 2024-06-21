@@ -53,6 +53,15 @@ const Projects: React.FC = () => {
           externalLinkUrl='https://devpost.com/software/ecocoin'
           isHackathonProject={true}
           />
+          <ProjectCard
+          title='SysTrack'
+          description='Real-time system statistics monitoring.'
+          imageUrl='/images/project6.webp'
+          projectUrl='https://pypi.org/project/systracker/'
+          githubUrl='https://github.com/VenturaSync/SysTrack'
+          externalLinkUrl='https://pypi.org/project/systracker/'
+          isHackathonProject={false}
+          />
         </section>
       </main>
     </div>
