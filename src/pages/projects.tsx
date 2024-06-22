@@ -27,6 +27,15 @@ const Projects: React.FC = () => {
             isHackathonProject={false}
           />
           <ProjectCard
+            title='SysTrack'
+            description='Real-time system statistics monitoring.'
+            imageUrl='/images/project6.webp'
+            projectUrl='https://pypi.org/project/systracker/'
+            githubUrl='https://github.com/VenturaSync/SysTrack'
+            externalLinkUrl='https://pypi.org/project/systracker/'
+            isHackathonProject={false}
+          />
+          <ProjectCard
             title="Powerstride"
             description="Wearable tech that turns your steps into electricity"
             imageUrl="/images/project3.webp"
@@ -45,22 +54,13 @@ const Projects: React.FC = () => {
             isHackathonProject={true}
           />
           <ProjectCard
-          title='EcoCoin'
-          description='Earn Green for Going Green'
-          imageUrl='/images/project5.webp'
-          projectUrl='https://devpost.com/software/ecocoin'
-          githubUrl='https://github.com/aroramrinaal/EcoCoin'
-          externalLinkUrl='https://devpost.com/software/ecocoin'
-          isHackathonProject={true}
-          />
-          <ProjectCard
-          title='SysTrack'
-          description='Real-time system statistics monitoring.'
-          imageUrl='/images/project6.webp'
-          projectUrl='https://pypi.org/project/systracker/'
-          githubUrl='https://github.com/VenturaSync/SysTrack'
-          externalLinkUrl='https://pypi.org/project/systracker/'
-          isHackathonProject={false}
+            title='EcoCoin'
+            description='Earn Green for Going Green'
+            imageUrl='/images/project5.webp'
+            projectUrl='https://devpost.com/software/ecocoin'
+            githubUrl='https://github.com/aroramrinaal/EcoCoin'
+            externalLinkUrl='https://devpost.com/software/ecocoin'
+            isHackathonProject={true}
           />
         </section>
       </main>
