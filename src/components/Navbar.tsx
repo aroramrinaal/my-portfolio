@@ -41,7 +41,7 @@ const Navbar = () => {
                             </Link>
                         </li>
                         <li>
-                            <a href="https://drive.google.com/file/d/1UmsDqY7lA1Kec3BLhSSbRLTVighgfcN6/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="block py-2 px-3 md:p-0 text-lg text-darkPurple rounded md:hover:bg-transparent md:border-0 dark:text-amethyst">Resume</a>
+                            <a href="" target="_blank" rel="noopener noreferrer" className="block py-2 px-3 md:p-0 text-lg text-darkPurple rounded md:hover:bg-transparent md:border-0 dark:text-amethyst">Resume</a>
                         </li>
                         <li>
                             <Link href="/contact">
