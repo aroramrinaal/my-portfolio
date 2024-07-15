@@ -29,15 +29,14 @@ export default function Home() {
               Explore my diverse range of projects and discover the creative solutions I&apos;ve developed.
             </p>
             <div className="flex space-x-4">
-              <Link href="/projects">
-                <a className="px-6 py-3 text-lg font-medium text-white bg-black rounded-md hover:bg-gray-800">
+              <Link href="/projects"
+                 className="px-6 py-3 text-lg font-medium text-white bg-black rounded-md hover:bg-gray-800">
                   View Projects
-                </a>
               </Link>
-              <Link href="/contact">
-                <a className="px-6 py-3 text-lg font-medium text-black bg-white border border-black rounded-md hover:bg-gray-100">
+              <Link href="/contact"
+                 className="px-6 py-3 text-lg font-medium text-black bg-white border border-black rounded-md hover:bg-gray-100">
                   Contact Me
-                </a>
+                
               </Link>
             </div>
           </div>
