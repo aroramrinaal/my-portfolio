@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
 
-const Contact = () => {
+export default function Contact() {
     return (
         <div className="flex flex-col min-h-screen">
             <Navbar />
@@ -29,5 +29,3 @@ const Contact = () => {
         </div>
     );
 }
-
-export default Contact;

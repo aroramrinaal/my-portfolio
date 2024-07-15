@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Navbar from '@/components/Navbar';
 
-const About: React.FC = () => {
+export default function About() {
   return (
     <div className="flex flex-col min-h-screen bg-linen">
       <Navbar />
@@ -76,5 +76,3 @@ const About: React.FC = () => {
     </div>
   );
 };
-
-export default About;

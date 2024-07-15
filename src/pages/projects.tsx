@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '@/components/Navbar';
 import ProjectCard from '@/components/ProjectCard';
 
-const Projects: React.FC = () => {
+export default function Projects() {
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
@@ -67,5 +67,3 @@ const Projects: React.FC = () => {
     </div>
   );
 };
-
-export default Projects;

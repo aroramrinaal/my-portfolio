@@ -3,7 +3,7 @@ import Navbar from '@/components/Navbar';
 import Link from 'next/link';
 import Image from 'next/image';
 
-const Home: React.FC = () => {
+export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-linen">
       <Navbar />
@@ -46,5 +46,3 @@ const Home: React.FC = () => {
     </div>
   );
 };
-
-export default Home;

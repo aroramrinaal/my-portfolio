@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 
-const Custom404: React.FC = () => {
+export default function Custom404() {
   return (
     <div className="flex flex-col min-h-screen bg-linen">
       <Navbar />
@@ -18,5 +18,3 @@ const Custom404: React.FC = () => {
     </div>
   );
 };
-
-export default Custom404;
