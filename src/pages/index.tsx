@@ -10,12 +10,15 @@ export default function Home() {
       <div className="flex flex-col md:flex-row flex-grow items-center justify-center px-4 md:px-8 py-8 md:py-0">
         <div className="w-full md:w-2/5 flex items-center justify-center mb-8 md:mb-0">
           <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden shadow-lg">
-            <Image
-              src="/images/profile.webp"
+            <img
+              src="https://raw.githubusercontent.com/aroramrinaal/my-portfolio/main/public/images/profile.webp"
               alt="Profile Picture"
-              layout="fill"
-              objectFit="cover"
-              className="rounded-full"
+              style={{
+                objectFit: 'cover',
+                borderRadius: '50%',
+                width: '100%',
+                height: '100%'
+              }}
             />
           </div>
         </div>

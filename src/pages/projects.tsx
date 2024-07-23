@@ -11,7 +11,7 @@ export default function Projects() {
           <ProjectCard
             title="Spotistats"
             description="Analyzing Spotify Listening Habits"
-            imageUrl="/images/project1.webp"
+            imageUrl="https://raw.githubusercontent.com/aroramrinaal/my-portfolio/main/public/images/project1.webp"
             projectUrl="https://github.com/aroramrinaal/spotistats/"
             githubUrl='https://github.com/aroramrinaal/spotistats/'
             externalLinkUrl='https://aroramrinaal.vercel.app/blog/spotistats-project'
@@ -20,7 +20,7 @@ export default function Projects() {
           <ProjectCard
             title="Portfolio Website"
             description="Personal Portfolio Website"
-            imageUrl="/images/project2.webp"
+            imageUrl="https://raw.githubusercontent.com/aroramrinaal/my-portfolio/main/public/images/project2.webp"
             projectUrl="https://github.com/aroramrinaal/my-portfolio"
             githubUrl='https://github.com/aroramrinaal/my-portfolio'
             externalLinkUrl='https://aroramrinaal.vercel.app/'
@@ -29,7 +29,7 @@ export default function Projects() {
           <ProjectCard
             title='SysTrack'
             description='Real-time system statistics monitoring.'
-            imageUrl='/images/project6.webp'
+            imageUrl='https://raw.githubusercontent.com/aroramrinaal/my-portfolio/main/public/images/project6.webp'
             projectUrl='https://pypi.org/project/systracker/'
             githubUrl='https://github.com/VenturaSync/SysTrack'
             externalLinkUrl='https://pypi.org/project/systracker/'
@@ -38,7 +38,7 @@ export default function Projects() {
           <ProjectCard
             title="Powerstride"
             description="Wearable tech that turns your steps into electricity"
-            imageUrl="/images/project3.webp"
+            imageUrl="https://raw.githubusercontent.com/aroramrinaal/my-portfolio/main/public/images/project3.webp"
             projectUrl="https://devpost.com/software/powerstride"
             githubUrl='https://github.com/aroramrinaal/PowerStride'
             externalLinkUrl='https://devpost.com/software/powerstride'
@@ -47,7 +47,7 @@ export default function Projects() {
           <ProjectCard
             title="Freshuntil"
             description="Minimize Waste & Maximize Taste."
-            imageUrl="/images/project4.webp"
+            imageUrl="https://raw.githubusercontent.com/aroramrinaal/my-portfolio/main/public/images/project4.webp"
             projectUrl='https://devpost.com/software/freshuntil-4ol2qy'
             githubUrl='https://github.com/mekhiHart/LAHacks-2024/'
             externalLinkUrl='https://devpost.com/software/freshuntil-4ol2qy'
@@ -56,7 +56,7 @@ export default function Projects() {
           <ProjectCard
             title='EcoCoin'
             description='Earn Green for Going Green'
-            imageUrl='/images/project5.webp'
+            imageUrl='https://raw.githubusercontent.com/aroramrinaal/my-portfolio/main/public/images/project5.webp'
             projectUrl='https://devpost.com/software/ecocoin'
             githubUrl='https://github.com/aroramrinaal/EcoCoin'
             externalLinkUrl='https://devpost.com/software/ecocoin'
