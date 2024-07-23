@@ -14,7 +14,7 @@ const Navbar = () => {
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <Image src="/mylogo.svg" alt="MyLogo" width={32} height={32} />
-                    <span className="self-center text-xl md:text-2xl font-semibold whitespace-nowrap">Mrinaal Arora</span>
+                    <span className="self-center text-xl md:text-3xl font-semibold whitespace-nowrap">Mrinaal Arora</span>
                 </Link>
                 <button
                     onClick={toggleMenu}
@@ -25,7 +25,7 @@ const Navbar = () => {
                 >
                     <span className="sr-only">Toggle menu</span>
                     <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                        <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15"/>
+                        <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15" />
                     </svg>
                 </button>
                 <div className={`${isMenuOpen ? 'block' : 'hidden'} w-full md:block md:w-auto`} id="navbar-solid-bg">
@@ -33,7 +33,7 @@ const Navbar = () => {
                         {['Home', 'About', 'Projects', 'Blog', 'Resume', 'Contact'].map((item) => (
                             <li key={item}>
                                 <Link
-                                    href={item === 'Resume' ? "https://drive.google.com/file/d/1UmsDqY7lA1Kec3BLhSSbRLTVighgfcN6/view?usp=sharing" : `/${item.toLowerCase()}`}
+                                    href={item === 'Home' ? "/" : `/${item.toLowerCase()}`}
                                     target={item === 'Resume' ? "_blank" : ""}
                                     rel={item === 'Resume' ? "noopener noreferrer" : ""}
                                     className="block py-2 px-3 md:p-0 text-base md:text-lg text-darkPurple rounded md:hover:bg-transparent md:border-0 hover:underline underline-offset-4"
@@ -44,6 +44,7 @@ const Navbar = () => {
                             </li>
                         ))}
                     </ul>
+
                 </div>
             </div>
         </nav>
