@@ -1,5 +1,8 @@
-import { GetStaticPaths, GetStaticProps } from 'next';
 import React from 'react';
+import { GetStaticPaths, GetStaticProps } from 'next';
+import Head from 'next/head';
+import Link from 'next/link';
+import { ArrowLeft } from 'lucide-react';
 import Navbar from '@/components/Navbar';
 
 interface BlogPost {
@@ -84,7 +87,7 @@ const blogPosts: BlogPost[] = [
 
     <h3 class="text-2xl font-semibold mt-6 mb-2">Conclusion</h3>
     <p>Next.js has proven to be a powerful and flexible framework for building my portfolio website. Its features, performance, and developer-friendly environment make it an ideal choice for creating a professional and engaging online presence. If you're considering building a portfolio or any web application, I highly recommend giving Next.js a try.</p>
-    `, 
+    `,
     date: 'June 6, 2024',
   },{
     id: 'spotistats-project',
@@ -152,14 +155,36 @@ interface BlogPostProps {
 
 const BlogPostPage: React.FC<BlogPostProps> = ({ post }) => {
   return (
-    <div className="flex flex-col min-h-screen bg-linen">
-      <Navbar />
-      <div className="flex-grow p-8 max-w-4xl mx-auto">
-        <h1 className="text-4xl font-bold mb-2">{post.title}</h1>
-        <p className="text-gray-600 mb-8">{post.date}</p>
-        <div className="text-gray-700 prose lg:prose-xl" dangerouslySetInnerHTML={{ __html: post.content }} />
+    <>
+      <Head>
+        <title>{post.title} | Mrinaal Arora's Blog</title>
+        <meta name="description" content={`Read about ${post.title}`} />
+      </Head>
+      <div className="min-h-screen bg-linen flex flex-col">
+        <Navbar />
+        <main className="flex-grow max-w-4xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          <Link href="/blog" className="inline-flex items-center text-blue-600 hover:text-blue-800 mb-6">
+            <ArrowLeft className="mr-2" size={20} />
+            <span>Back to Blog</span>
+          </Link>
+          <h1 className="text-3xl sm:text-4xl font-bold mb-4 text-gray-900">{post.title}</h1>
+          <div className="flex items-center text-gray-600 mb-8">
+            <time>{post.date}</time>
+          </div>
+          <div 
+            className="prose prose-sm sm:prose lg:prose-lg max-w-none text-gray-800"
+            dangerouslySetInnerHTML={{ __html: post.content }} 
+          />
+        </main>
+        <footer className="bg-linen py-6 mt-auto">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <p className="text-center text-gray-600">
+              &copy; {new Date().getFullYear()} Mrinaal Arora. All rights reserved.
+            </p>
+          </div>
+        </footer>
       </div>
-    </div>
+    </>
   );
 };
 
