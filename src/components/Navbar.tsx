@@ -19,14 +19,16 @@ const Navbar = () => {
                 <button
                     onClick={toggleMenu}
                     type="button"
-                    className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden bg-black hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-200"
+                    className="inline-flex items-center justify-center p-2 w-10 h-10 text-sm text-white rounded-lg md:hidden bg-black hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-200"
                     aria-controls="navbar-solid-bg"
                     aria-expanded={isMenuOpen}
                 >
                     <span className="sr-only">Toggle menu</span>
-                    <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                        <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15"/>
-                    </svg>
+                    <div className="w-6 h-6 relative flex flex-col justify-center items-center">
+                        <span className={`absolute h-0.5 w-full bg-white transform transition-all duration-300 ease-in-out ${isMenuOpen ? 'rotate-45' : '-translate-y-2'}`} />
+                        <span className={`absolute h-0.5 w-full bg-white transform transition-all duration-300 ease-in-out ${isMenuOpen ? 'opacity-0' : 'opacity-100'}`} />
+                        <span className={`absolute h-0.5 w-full bg-white transform transition-all duration-300 ease-in-out ${isMenuOpen ? '-rotate-45' : 'translate-y-2'}`} />
+                    </div>
                 </button>
                 <div className={`${isMenuOpen ? 'block' : 'hidden'} w-full md:block md:w-auto`} id="navbar-solid-bg">
                     <ul className="flex flex-col font-medium mt-4 rounded-lg bg-black md:bg-transparent md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
