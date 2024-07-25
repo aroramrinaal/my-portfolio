@@ -21,6 +21,7 @@ export default function About() {
                 }}
                 width="400"
                 height="400"
+                className='animate-pulse animate-once'
               />
             </div>
           </div>

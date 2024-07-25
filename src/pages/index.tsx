@@ -31,7 +31,7 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
               <Link href="/projects"
-                className="px-6 py-3 text-base md:text-lg font-medium text-white bg-black rounded-md hover:bg-gray-800 text-center">
+                className="px-6 py-3 text-base md:text-lg font-medium text-white bg-black rounded-md hover:bg-gray-800 text-center animate-pulse animate-once">
                 View Projects
               </Link>
               <Link href="/contact"
