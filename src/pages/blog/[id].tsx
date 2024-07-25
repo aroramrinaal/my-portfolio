@@ -157,7 +157,7 @@ const BlogPostPage: React.FC<BlogPostProps> = ({ post }) => {
   return (
     <>
       <Head>
-        <title>{post.title} | Mrinaal Arora's Blog</title>
+        <title>{post.title} | Mrinaal Arora&apos;s Blog</title>
         <meta name="description" content={`Read about ${post.title}`} />
       </Head>
       <div className="min-h-screen bg-linen flex flex-col">
