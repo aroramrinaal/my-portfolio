@@ -9,7 +9,7 @@ interface BlogPost {
 }
 
 const blogPosts: BlogPost[] = [
-  { id: 'why-nextjs', title: 'Why I used Next.js for building my portfolio page?', description: 'Learn why Next.js was chosen for building this portfolio page.' },
+  { id: 'tech-stack-fun', title: 'Building My First Portfolio: Next.js, Tailwind CSS, and Vercel Adventures', description: 'Let me take you through the fun and excitement of using Next.js, Tailwind CSS, and Vercel to create and deploy my portfolio page!' },
   { id: 'spotistats-project', title: 'Insights from Spotify Streaming History: The Spotistats Project', description: 'Data analysis and visualization project based on your Spotify streaming history.' },
 ];
 
