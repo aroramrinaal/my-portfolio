@@ -21,7 +21,7 @@ const Blog: React.FC = () => {
         <h1 className="text-4xl sm:text-5xl text-amethyst font-bold mb-8 text-center">Read My Blog</h1>
         <ul className="space-y-8">
           {blogPosts.map((post) => (
-            <li key={post.id} className="bg-white shadow-md rounded-lg p-6 transition-transform duration-300 hover:scale-105">
+            <li key={post.id} className="bg-white border border-gray-300 rounded-lg p-6 transition-transform duration-300 hover:scale-105">
               <Link href={`/blog/${post.id}`} className="block">
                 <h2 className="text-xl sm:text-2xl font-semibold text-darkPurple hover:text-amethyst transition-colors duration-300 mb-2">
                   {post.title}

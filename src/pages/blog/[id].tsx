@@ -96,13 +96,13 @@ const blogPosts: BlogPost[] = [
     
     <p>Spotify is one of the most popular music streaming platforms worldwide, offering users an extensive library of songs and podcasts. As an avid Spotify user, I was curious to explore my listening habits in detail. This curiosity led to the creation of Spotistats, a data analysis and visualization project designed to uncover insights from my Spotify streaming history.</p>
     
-    <h3><strong>Introduction</strong></h3>
+    <h3 class="text-2xl font-semibold mt-6 mb-2">Introduction</h3>
     <p>Welcome to Spotistats, a project that delves into the depths of my personal Spotify usage. With this project, I aim to understand my listening preferences, track my most-played songs and artists, and uncover patterns in my streaming habits.</p>
         
-    <h3><strong>Getting the Data</strong></h3>
+    <h3 class="text-2xl font-semibold mt-6 mb-2">Getting the Data</h3>
     <p>To start this journey, I downloaded my Spotify streaming history from Spotify's Privacy Setting section. This feature allows users to download their personal usage data, providing a detailed record of every track played.</p>
         
-    <h3><strong>Tools and Technologies</strong></h3>
+    <h3 class="text-2xl font-semibold mt-6 mb-2">Tools and Technologies</h3>
     <p>For this exploratory data analysis (EDA) project, I utilized several powerful tools and libraries:</p>
     <ul class="list-disc ml-5">
       <li><strong>Jupyter Notebook</strong>: For interactive coding and visualization.</li>
@@ -113,7 +113,7 @@ const blogPosts: BlogPost[] = [
       <li><strong>NumPy</strong>: For numerical computations.</li>
     </ul>
         
-    <h3><strong>Data Cleaning and Preparation</strong></h3>
+    <h3 class="text-2xl font-semibold mt-6 mb-2">Data Cleaning and Preparation</h3>
     <p>The raw data obtained from Spotify required some cleaning and formatting to be useful for analysis. Key steps included:</p>
     <ul class="list-disc ml-5">
       <li><strong>Loading the Data</strong>: Importing JSON files into Pandas DataFrames.</li>
@@ -123,26 +123,26 @@ const blogPosts: BlogPost[] = [
       <li><strong>Dropping Irrelevant Columns</strong>: Streamlining the dataset for analysis.</li>
     </ul>
         
-    <h3><strong>Exploratory Data Analysis</strong></h3>
+    <h3 class="text-2xl font-semibold mt-6 mb-2">Exploratory Data Analysis</h3>
     
-    <h4><strong>Top 10 Favorite Artists</strong></h4>
+    <h4 class="text-xl font-semibold mt-4 mb-2">Top 10 Favorite Artists</h4>
     <p>Understanding my top artists based on listening time and play count. This analysis provided a clear picture of which artists dominated my listening habits.</p>
         
-    <h4><strong>Unique Tracks Analysis</strong></h4>
+    <h4 class="text-xl font-semibold mt-4 mb-2">Unique Tracks Analysis</h4>
     <p>Calculating the percentage of unique tracks played. This helped me understand the diversity of my listening preferences.</p>
         
-    <h4><strong>Day Wise Usage</strong></h4>
+    <h4 class="text-xl font-semibold mt-4 mb-2">Day Wise Usage</h4>
     <p>Analyzing active usage in a day over a week with a heatmap. This visualization highlighted periods of high and low streaming activity, providing insights into my listening behavior throughout the week.</p>
         
-    <h4><strong>Songs Played Each Day</strong></h4>
+    <h4 class="text-xl font-semibold mt-4 mb-2">Songs Played Each Day</h4>
     <p>Visualizing the number of songs played each day with a scatter plot. This revealed trends and patterns in my daily listening habits, including identifying the day with the maximum number of songs played.</p>
         
-    <h4><strong>Word Cloud of Top 100 Favorite Artists</strong></h4>
+    <h4 class="text-xl font-semibold mt-4 mb-2">Word Cloud of Top 100 Favorite Artists</h4>
     <p>Generating a word cloud to visualize the top 100 favorite artists based on the number of times their songs were played. The size of each artist's name in the word cloud is proportional to the number of times their songs were played, providing a visual representation of my most frequently played artists.</p>
         
-    <h3><strong>Conclusion</strong></h3>
+    <h3 class="text-2xl font-semibold mt-6 mb-2">Conclusion</h3>
     <p>Spotistats provided valuable insights into my Spotify listening habits, revealing patterns and preferences that I was previously unaware of. By leveraging powerful data analysis and visualization tools, this project showcases the potential of personal data analytics.</p>
-    <p>If you're interested in exploring your Spotify data, you can check out the project on GitHub: <a href="https://github.com/aroramrinaal/spotistats/">Link</a></p>
+    <p>If you're interested in exploring your Spotify data, you can check out the project on GitHub: <a href="https://github.com/aroramrinaal/spotistats/" class="text-blue-600 hover:text-blue-800">Link</a></p>
     
     `,
     date: 'June 6, 2024',
@@ -163,7 +163,7 @@ const BlogPostPage: React.FC<BlogPostProps> = ({ post }) => {
       <div className="min-h-screen bg-linen flex flex-col">
         <Navbar />
         <main className="flex-grow max-w-4xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <Link href="/blog" className="inline-flex items-center text-blue-600 hover:text-blue-800 mb-6">
+          <Link href="/blog" className="inline-flex items-center text-black hover:text-amethyst mb-6">
             <ArrowLeft className="mr-2" size={20} />
             <span>Back to Blog</span>
           </Link>
@@ -178,7 +178,7 @@ const BlogPostPage: React.FC<BlogPostProps> = ({ post }) => {
         </main>
         <footer className="bg-linen py-6 mt-auto">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <p className="text-center text-gray-600">
+            <p className="text-center text-black">
               &copy; {new Date().getFullYear()} Mrinaal Arora. All rights reserved.
             </p>
           </div>
