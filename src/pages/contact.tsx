@@ -8,7 +8,7 @@ export default function Contact() {
             <main className="flex-grow bg-linen">
                 <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
                     <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-amethyst ">Contact Me</h2>
-                    <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 sm:text-xl">Have a project in mind or just want to say hi? Drop me a message! Have any opportunities you would like to discuss? I&apos;d love to hear from you!</p>
+                    <p className="mb-8 lg:mb-16 font-light text-center text-black sm:text-xl">Have a project in mind or just want to say hi? Drop me a message! Have any opportunities you would like to discuss? I&apos;d love to hear from you!</p>
                     <form action="#" className="space-y-8">
                         <div>
                             <label htmlFor="subject" className="block mb-2 text-sm font-medium text-gray-900">Name</label>
