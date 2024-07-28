@@ -29,41 +29,14 @@ export default function About() {
             <div className="space-y-4">
               <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-amethyst text-center md:text-left">About Me</h1>
               <p className="text-gray-700 text-base md:text-lg lg:text-xl text-justify">
-                Hi, I&apos;m Mrinaal Arora, a dedicated Computer Science student at Arizona State University, maintaining a perfect GPA. My experience extends from academic research and educational support as a Research Aide and Undergraduate Teaching Assistant to hands-on software engineering during my internship at OK Health. My projects range from data analysis tools to eco-friendly web applications, showcasing my passion for technology and commitment to driving innovation. I aim to blend creativity with technology to address real-world problems. Explore my journey and projects to see how I apply my technical expertise for positive change.
+                Experienced Computer Science junior at Arizona State University with a demonstrated history of working in web development and data analysis. Skilled in Python, JavaScript, TypeScript, Next.js, and PostgreSQL. My projects showcase my abilities in building data-driven and full-stack applications.
+                <br /> <br />
+                I enjoy stretching my full-stack abilities whenever I get the chance. My experience spans various technologies, and I'm always eager to dive into new ones.
+                <br /> <br />
+                I was Runner Up at MakeHarvard 2024 for Project PowerStride and won the Sustainability Track at YHacks for Project EcoCoin.
+                <br /> <br />
+                I love coffee and side projects, hit me up. Open to summer 2025 internships.
               </p>
-            </div>
-            <div className="mt-8 space-y-4">
-              <h2 className="text-2xl md:text-3xl font-bold text-amethyst text-center md:text-left">Let&apos;s Connect</h2>
-              <div className="flex flex-col md:flex-row items-center md:items-start space-y-4 md:space-y-0 md:space-x-4">
-                <Link
-                  href="https://www.linkedin.com/in/mrinaalarora/"
-                  className="inline-flex items-center justify-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50"
-                >
-                  <img src="/linkedin-white.svg" alt="LinkedIn" className="w-5 h-5 mr-2" />
-                  LinkedIn
-                </Link>
-                <Link
-                  href="https://github.com/aroramrinaal"
-                  className="inline-flex items-center justify-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50"
-                >
-                  <img src="/github-white.svg" alt="GitHub" className="w-5 h-5 mr-2" />
-                  GitHub
-                </Link>
-                <Link
-                  href="https://x.com/mrinaalarora25"
-                  className="inline-flex items-center justify-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50"
-                >
-                  <img src="/twitter-x-white.svg" alt="Twitter" className="w-5 h-5 mr-2" />
-                  Twitter
-                </Link>
-                <Link
-                  href="https://www.instagram.com/mri.ar/"
-                  className="inline-flex items-center justify-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50"
-                >
-                  <img src="/instagram-white.svg" alt="Instagram" className="w-5 h-5 mr-2" />
-                  Instagram
-                </Link>
-              </div>
             </div>
           </div>
         </div>
