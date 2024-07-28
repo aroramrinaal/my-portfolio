@@ -31,7 +31,7 @@ export default function About() {
               <p className="text-gray-700 text-base md:text-lg lg:text-xl text-justify">
                 Experienced Computer Science junior at Arizona State University with a demonstrated history of working in web development and data analysis. Skilled in Python, JavaScript, TypeScript, Next.js, and PostgreSQL. My projects showcase my abilities in building data-driven and full-stack applications.
                 <br /> <br />
-                I enjoy stretching my full-stack abilities whenever I get the chance. My experience spans various technologies, and I'm always eager to dive into new ones.
+                I enjoy stretching my full-stack abilities whenever I get the chance. My experience spans various technologies, and I&apos;m always eager to dive into new ones.
                 <br /> <br />
                 I was Runner Up at MakeHarvard 2024 for Project PowerStride and won the Sustainability Track at YHacks for Project EcoCoin.
                 <br /> <br />
