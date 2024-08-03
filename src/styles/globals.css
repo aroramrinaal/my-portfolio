@@ -17,8 +17,3 @@
 body {
   cursor: url('/custom-cursor.png'), auto;
 }
-
-/* For clickable elements */
-/* a, button, [role="button"] {
-  cursor: url('/custom-cursor-pointer.png'), pointer;
-} */
