@@ -15,8 +15,8 @@ export default function About() {
                 src="https://raw.githubusercontent.com/aroramrinaal/my-portfolio/main/public/images/about-page-image.webp"
                 alt="Profile Picture"
                 layout="responsive"
-                width={400}  // Set the width to 400px
-                height={400} // Set the height to 400px to maintain aspect ratio
+                width={400}
+                height={400}
                 objectFit="cover"
               />
             </div>
