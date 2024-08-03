@@ -25,7 +25,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, imageUrl,
             {title}
           </Link>
         </h3>
-        <p className="text-black dark:text-gray-400 mb-4 text-xl">{description}</p>
+        <p className="text-black mb-4 text-xl">{description}</p>
         <div className="flex justify-between items-center">
           <Link href={projectUrl} className="inline-flex items-center bg-black text-white px-4 py-2 rounded-lg hover:bg-gray-800" prefetch={false}>
             View Project
