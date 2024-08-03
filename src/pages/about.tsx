@@ -27,7 +27,7 @@ export default function About() {
           <div>
             <div className="space-y-4">
               <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-amethyst text-center md:text-left">About Me</h1>
-              <p className="text-black font-normal font-serif md:text-lg lg:text-xl text-justify">
+              <p className="text-black font-normal md:text-lg lg:text-xl text-justify">
                 Experienced Computer Science junior at Arizona State University with a demonstrated history of working in web development and data analysis. Skilled in Python, JavaScript, TypeScript, Next.js, and PostgreSQL. My projects showcase my abilities in building data-driven and full-stack applications.
                 <br /> <br />
                 I enjoy stretching my full-stack abilities whenever I get the chance. My experience spans various technologies, and I&apos;m always eager to dive into new ones.
