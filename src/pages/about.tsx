@@ -11,16 +11,13 @@ export default function About() {
         <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
           <div className="flex flex-col items-center md:items-start md:order-2">
             <div className="rounded-lg overflow-hidden w-full md:w-[400px] md:h-[400px]">
-              <img
+              <Image
                 src="https://raw.githubusercontent.com/aroramrinaal/my-portfolio/main/public/images/about-page-image.webp"
                 alt="Profile Picture"
-                style={{
-                  objectFit: 'cover',
-                  width: '100%',
-                  height: 'auto'
-                }}
-                width="400"
-                height="400"
+                layout="responsive"
+                width={400}  // Set the width to 400px
+                height={400} // Set the height to 400px to maintain aspect ratio
+                objectFit="cover"
               />
             </div>
           </div>
