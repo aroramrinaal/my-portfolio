@@ -36,6 +36,15 @@ export default function Projects() {
             isHackathonProject={false}
           />
           <ProjectCard
+            title='CursorPath'
+            description='Track Your Mouse Journey'
+            imageUrl='https://raw.githubusercontent.com/aroramrinaal/my-portfolio/main/public/images/cursorpathproject.png'
+            projectUrl="https://cursorpath.vercel.app/"
+            githubUrl='https://github.com/aroramrinaal/cursor-path'
+            externalLinkUrl='https://cursorpath.vercel.app/'
+            isHackathonProject={false}
+          />
+          <ProjectCard
             title="Powerstride"
             description="Wearable tech that turns your steps into electricity"
             imageUrl="https://raw.githubusercontent.com/aroramrinaal/my-portfolio/main/public/images/project3.webp"
