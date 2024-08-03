@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import HackathonSticker from './HackathonSticker';
 
 interface ProjectCardProps {
@@ -17,7 +18,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, imageUrl,
     <div className="bg-linen rounded-lg overflow-hidden shadow-md border border-black relative">
       {isHackathonProject && <HackathonSticker />}
       <Link href={projectUrl} className="block" prefetch={false}>
-        <img src={imageUrl} alt={title} className="w-full h-48 object-cover" />
+        <Image src={imageUrl} alt={title} className="w-full h-48 object-cover" width={500} height={300} />
       </Link>
       <div className="p-4">
         <h3 className="text-lg font-semibold mb-2">
