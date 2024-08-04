@@ -41,7 +41,7 @@ export default function Projects() {
             imageUrl='https://raw.githubusercontent.com/aroramrinaal/my-portfolio/main/public/images/cursorpathproject.png'
             projectUrl="https://cursorpath.vercel.app/"
             githubUrl='https://github.com/aroramrinaal/cursor-path'
-            externalLinkUrl='https://cursorpath.vercel.app/'
+            externalLinkUrl='https://chromewebstore.google.com/detail/cursor-path/mbdjmnlimadokilnbchhooijjphlipfc'
             isHackathonProject={false}
           />
           <ProjectCard
