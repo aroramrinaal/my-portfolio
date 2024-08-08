@@ -52,7 +52,7 @@ export default function Home() {
         "https://devpost.com/aroramrinaal"
       ],
       "image": "https://aroramrinaal.vercel.app/images/project2.webp",
-      "description": "Welcome to the portfolio of Mrinaal Arora, a proficient software engineer specializing in web development and AI. Explore projects, blog posts, and contact information."
+      "description": "Mrinaal Arora's Portfolio: Software Engineer. Explore projects, blog, and contact info."
     }
     `}
         </script>

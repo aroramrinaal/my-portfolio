@@ -45,13 +45,13 @@ const Blog: React.FC = () => {
         <link rel="canonical" href="https://aroramrinaal.vercel.app/blog" />
         <meta property="og:title" content="Blog | Mrinaal Arora" />
         <meta property="og:description" content="Read the latest blog posts by Mrinaal Arora." />
-        <meta property="og:image" content="https://aroramrinaal.vercel.app/images/blog-page-preview.png" />
+        <meta property="og:image" content="https://aroramrinaal.vercel.app/images/blog-page-preview.jpg" />
         <meta property="og:url" content="https://aroramrinaal.vercel.app/blog" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Blog | Mrinaal Arora" />
         <meta name="twitter:description" content="Read the latest blog posts by Mrinaal Arora." />
-        <meta name="twitter:image" content="https://aroramrinaal.vercel.app/images/blog-page-preview.png" />
+        <meta name="twitter:image" content="https://aroramrinaal.vercel.app/images/blog-page-preview.jpg" />
       </Head>
 
       <main className="flex-grow container mx-auto px-4 sm:px-6 lg:px-8 py-12">

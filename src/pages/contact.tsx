@@ -15,13 +15,13 @@ export default function Contact() {
                 <link rel="canonical" href="https://aroramrinaal.vercel.app/contact" />
                 <meta property="og:title" content="Contact | Mrinaal Arora" />
                 <meta property="og:description" content="Get in touch with Mrinaal Arora for collaboration, queries, and more." />
-                <meta property="og:image" content="https://aroramrinaal.vercel.app/images/contact-page-preview.png" />
+                <meta property="og:image" content="https://aroramrinaal.vercel.app/images/contact-page-preview.jpg" />
                 <meta property="og:url" content="https://aroramrinaal.vercel.app/contact" />
                 <meta property="og:type" content="website" />
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content="Contact | Mrinaal Arora" />
                 <meta name="twitter:description" content="Get in touch with Mrinaal Arora for collaboration, queries, and more." />
-                <meta name="twitter:image" content="https://aroramrinaal.vercel.app/images/contact-page-preview.png" />
+                <meta name="twitter:image" content="https://aroramrinaal.vercel.app/images/contact-page-preview.jpg" />
             </Head>
 
             <main className="flex-grow bg-linen">

@@ -15,13 +15,13 @@ export default function Projects() {
         <link rel="canonical" href="https://aroramrinaal.vercel.app/projects" />
         <meta property="og:title" content="Projects | Mrinaal Arora" />
         <meta property="og:description" content="Discover the projects developed by Mrinaal Arora." />
-        <meta property="og:image" content="https://aroramrinaal.vercel.app/images/projects-page-preview.png" />
+        <meta property="og:image" content="https://aroramrinaal.vercel.app/images/projects-page-preview.jpg" />
         <meta property="og:url" content="https://aroramrinaal.vercel.app/projects" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Projects | Mrinaal Arora" />
         <meta name="twitter:description" content="Discover the projects developed by Mrinaal Arora." />
-        <meta name="twitter:image" content="https://aroramrinaal.vercel.app/images/projects-page-preview.png" />
+        <meta name="twitter:image" content="https://aroramrinaal.vercel.app/images/projects-page-preview.jpg" />
       </Head>
       <Navbar />
       <main className="flex-grow bg-linen p-4 md:p-6">

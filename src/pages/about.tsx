@@ -16,13 +16,13 @@ export default function About() {
         <link rel="canonical" href="https://aroramrinaal.vercel.app/about" />
         <meta property="og:title" content="About | Mrinaal Arora" />
         <meta property="og:description" content="Learn more about Mrinaal Arora, a software engineer specializing in web development and AI." />
-        <meta property="og:image" content="https://aroramrinaal.vercel.app/images/about-page-preview.png" />
+        <meta property="og:image" content="https://aroramrinaal.vercel.app/images/about-page-preview.jpg" />
         <meta property="og:url" content="https://aroramrinaal.vercel.app/about" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="About | Mrinaal Arora" />
         <meta name="twitter:description" content="Learn more about Mrinaal Arora, a software engineer specializing in web development and AI." />
-        <meta name="twitter:image" content="https://aroramrinaal.vercel.app/images/about-page-preview.png" />
+        <meta name="twitter:image" content="https://aroramrinaal.vercel.app/images/about-page-preview.jpg" />
       </Head>
 
       <Navbar />
