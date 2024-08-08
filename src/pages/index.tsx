@@ -15,13 +15,13 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://aroramrinaal.vercel.app/" />
         <meta property="og:title" content="Mrinaal Arora | Software Engineer" />
-        <meta property="og:description" content="Explore the portfolio of Mrinaal Arora, a software engineer specializing in web development and AI." />
+        <meta property="og:description" content="Explore the portfolio of Mrinaal Arora, a software engineer." />
         <meta property="og:image" content="https://aroramrinaal.vercel.app/images/project2.webp" />
         <meta property="og:url" content="https://aroramrinaal.vercel.app/" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Mrinaal Arora | Software Engineer" />
-        <meta name="twitter:description" content="Explore the portfolio of Mrinaal Arora, a software engineer specializing in web development and AI." />
+        <meta name="twitter:description" content="Explore the portfolio of Mrinaal Arora, a software engineer." />
         <meta name="twitter:image" content="https://aroramrinaal.vercel.app/images/project2.webp" />
         <script type="application/ld+json">
           {`

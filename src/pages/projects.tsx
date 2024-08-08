@@ -1,10 +1,29 @@
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import ProjectCard from '@/components/ProjectCard';
+import Head from 'next/head';
 
 export default function Projects() {
   return (
     <div className="flex flex-col min-h-screen">
+      <Head>
+        <title>Projects | Mrinaal Arora</title>
+        <meta name="description" content="Discover the projects developed by Mrinaal Arora." />
+        <meta name="keywords" content="Mrinaal Arora, Projects, Web Development, AI" />
+        <meta name="author" content="Mrinaal Arora" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://aroramrinaal.vercel.app/projects" />
+        <meta property="og:title" content="Projects | Mrinaal Arora" />
+        <meta property="og:description" content="Discover the projects developed by Mrinaal Arora." />
+        <meta property="og:image" content="https://aroramrinaal.vercel.app/images/projects-page-preview.png" />
+        <meta property="og:url" content="https://aroramrinaal.vercel.app/projects" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Projects | Mrinaal Arora" />
+        <meta name="twitter:description" content="Discover the projects developed by Mrinaal Arora." />
+        <meta name="twitter:image" content="https://aroramrinaal.vercel.app/images/projects-page-preview.png" />
+      </Head>
+      <Navbar />
       <Navbar />
       <main className="flex-grow bg-linen p-4 md:p-6">
         <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

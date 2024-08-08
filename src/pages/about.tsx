@@ -1,11 +1,30 @@
 import React from 'react';
 import Link from 'next/link';
+import Head from 'next/head';
 import Image from 'next/image';
 import Navbar from '@/components/Navbar';
 
 export default function About() {
   return (
     <div className="flex flex-col min-h-screen bg-linen">
+      <Head>
+        <title>About | Mrinaal Arora</title>
+        <meta name="description" content="Learn more about Mrinaal Arora, a software engineer specializing in web development and AI." />
+        <meta name="keywords" content="Mrinaal Arora, About, Software Engineer, Web Development, AI" />
+        <meta name="author" content="Mrinaal Arora" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://aroramrinaal.vercel.app/about" />
+        <meta property="og:title" content="About | Mrinaal Arora" />
+        <meta property="og:description" content="Learn more about Mrinaal Arora, a software engineer specializing in web development and AI." />
+        <meta property="og:image" content="https://aroramrinaal.vercel.app/images/about-page-preview.png" />
+        <meta property="og:url" content="https://aroramrinaal.vercel.app/about" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="About | Mrinaal Arora" />
+        <meta name="twitter:description" content="Learn more about Mrinaal Arora, a software engineer specializing in web development and AI." />
+        <meta name="twitter:image" content="https://aroramrinaal.vercel.app/images/about-page-preview.png" />
+      </Head>
+
       <Navbar />
       <main className="flex-grow py-12 md:py-16 lg:py-20 px-4 md:px-6">
         <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">

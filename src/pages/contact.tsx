@@ -1,10 +1,29 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
+import Head from "next/head";
 
 export default function Contact() {
     return (
         <div className="flex flex-col min-h-screen">
             <Navbar />
+            <Head>
+                <title>Contact | Mrinaal Arora</title>
+                <meta name="description" content="Get in touch with Mrinaal Arora for collaboration, queries, and more." />
+                <meta name="keywords" content="Mrinaal Arora, Contact, Get in Touch, Collaboration, Queries" />
+                <meta name="author" content="Mrinaal Arora" />
+                <meta name="robots" content="index, follow" />
+                <link rel="canonical" href="https://aroramrinaal.vercel.app/contact" />
+                <meta property="og:title" content="Contact | Mrinaal Arora" />
+                <meta property="og:description" content="Get in touch with Mrinaal Arora for collaboration, queries, and more." />
+                <meta property="og:image" content="https://aroramrinaal.vercel.app/images/contact-page-preview.png" />
+                <meta property="og:url" content="https://aroramrinaal.vercel.app/contact" />
+                <meta property="og:type" content="website" />
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="Contact | Mrinaal Arora" />
+                <meta name="twitter:description" content="Get in touch with Mrinaal Arora for collaboration, queries, and more." />
+                <meta name="twitter:image" content="https://aroramrinaal.vercel.app/images/contact-page-preview.png" />
+            </Head>
+
             <main className="flex-grow bg-linen">
                 <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
                     <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-amethyst ">Contact Me</h2>

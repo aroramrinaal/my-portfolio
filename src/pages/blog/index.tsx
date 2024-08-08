@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import { Clock, Calendar, Tag } from 'lucide-react';
 import Navbar from '@/components/Navbar';
+import Head from 'next/head';
 
 interface BlogPost {
   id: string;
@@ -13,17 +14,17 @@ interface BlogPost {
 }
 
 const blogPosts: BlogPost[] = [
-  { 
-    id: 'tech-stack-fun', 
-    title: 'Building My First Portfolio: Next.js, Tailwind CSS, and Vercel Adventures', 
+  {
+    id: 'tech-stack-fun',
+    title: 'Building My First Portfolio: Next.js, Tailwind CSS, and Vercel Adventures',
     description: 'Let me take you through the fun and excitement of using Next.js, Tailwind CSS, and Vercel to create and deploy my portfolio page!',
     date: 'July 25, 2024',
     readTime: 5,
     tags: ['Next.js', 'Tailwind CSS', 'Vercel']
   },
-  { 
-    id: 'spotistats-project', 
-    title: 'Insights from Spotify Streaming History: The Spotistats Project', 
+  {
+    id: 'spotistats-project',
+    title: 'Insights from Spotify Streaming History: The Spotistats Project',
     description: 'Data analysis and visualization project based on your Spotify streaming history.',
     date: 'June 6, 2024',
     readTime: 8,
@@ -35,6 +36,24 @@ const Blog: React.FC = () => {
   return (
     <div className="flex flex-col min-h-screen bg-linen">
       <Navbar />
+      <Head>
+        <title>Blog | Mrinaal Arora</title>
+        <meta name="description" content="Read the latest blog posts by Mrinaal Arora." />
+        <meta name="keywords" content="Mrinaal Arora, Blog, Web Development, AI, Software Engineer" />
+        <meta name="author" content="Mrinaal Arora" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://aroramrinaal.vercel.app/blog" />
+        <meta property="og:title" content="Blog | Mrinaal Arora" />
+        <meta property="og:description" content="Read the latest blog posts by Mrinaal Arora." />
+        <meta property="og:image" content="https://aroramrinaal.vercel.app/images/blog-page-preview.png" />
+        <meta property="og:url" content="https://aroramrinaal.vercel.app/blog" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Blog | Mrinaal Arora" />
+        <meta name="twitter:description" content="Read the latest blog posts by Mrinaal Arora." />
+        <meta name="twitter:image" content="https://aroramrinaal.vercel.app/images/blog-page-preview.png" />
+      </Head>
+
       <main className="flex-grow container mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <h1 className="text-4xl sm:text-5xl text-amethyst font-bold mb-8 text-center">Read My Blog</h1>
         <ul className="space-y-8">
