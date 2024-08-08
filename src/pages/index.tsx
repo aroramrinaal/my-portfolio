@@ -17,7 +17,7 @@ export default function Home() {
 
         {/* Open Graph tags */}
         <meta property="og:title" content="Mrinaal Arora - Software Engineer" />
-        <meta property="og:description" content="Explore the portfolio of Mrinaal Arora, a talented software engineer." />
+        <meta property="og:description" content="Explore the portfolio of Mrinaal Arora, a software engineer." />
         <meta property="og:image" content="https://aroramrinaal.vercel.app/images/index-page-preview.jpg" />
         <meta property="og:image:secure_url" content="https://aroramrinaal.vercel.app/images/index-page-preview.jpg" />
         <meta property="og:url" content="https://aroramrinaal.vercel.app/" />
