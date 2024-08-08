@@ -14,6 +14,7 @@ function App({ Component, pageProps }: AppProps) {
         <meta name="keywords" content="Mrinaal Arora, Software Engineer, Web Developer, AI, Portfolio" />
         <meta name="author" content="Mrinaal Arora" />
         <meta name="robots" content="index, follow" />
+        <meta name="google-site-verification" content="mhTViDfPI8LSLXD2AWDLIsywTXRe5IWfnmf9-kcQJw4" />
       </Head>
       <Component {...pageProps} />
       <SpeedInsights />
