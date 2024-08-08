@@ -1,6 +1,2 @@
 User-agent: *
 Allow: /
-Disallow: /404
-Disallow: /api
-
-Sitemap: https://aroramrinaal.vercel.app/sitemap.xml
