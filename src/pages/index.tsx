@@ -9,20 +9,33 @@ export default function Home() {
     <div className="flex flex-col min-h-screen bg-linen">
       <Head>
         <title>Mrinaal Arora | Software Engineer</title>
-        <meta name="description" content="Welcome to the portfolio of Mrinaal Arora, a proficient software engineer specializing in web development and AI. Explore projects, blog posts, and contact information." />
-        <meta name="keywords" content="Mrinaal Arora, Software Engineer, Web Developer, AI, Portfolio" />
+        <meta name="description" content="Welcome to the portfolio of Mrinaal Arora, a skilled software engineer specializing in web development and AI. Explore his projects, blog posts, and contact information." />
+        <meta name="keywords" content="Mrinaal Arora, software engineer, web developer, AI, portfolio, Mrinaal, Arora" />
         <meta name="author" content="Mrinaal Arora" />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://aroramrinaal.vercel.app/" />
-        <meta property="og:title" content="Mrinaal Arora | Software Engineer" />
-        <meta property="og:description" content="Explore the portfolio of Mrinaal Arora, a software engineer." />
-        <meta property="og:image" content="https://aroramrinaal.vercel.app/images/project2.webp" />
+
+        {/* Open Graph tags */}
+        <meta property="og:title" content="Mrinaal Arora - Software Engineer" />
+        <meta property="og:description" content="Explore the portfolio of Mrinaal Arora, a talented software engineer." />
+        <meta property="og:image" content="https://aroramrinaal.vercel.app/images/index-page-preview.jpg" />
+        <meta property="og:image:secure_url" content="https://aroramrinaal.vercel.app/images/index-page-preview.jpg" />
         <meta property="og:url" content="https://aroramrinaal.vercel.app/" />
         <meta property="og:type" content="website" />
+
+        {/* Twitter cards */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Mrinaal Arora | Software Engineer" />
+        <meta name="twitter:title" content="Mrinaal Arora - Software Engineer" />
         <meta name="twitter:description" content="Explore the portfolio of Mrinaal Arora, a software engineer." />
-        <meta name="twitter:image" content="https://aroramrinaal.vercel.app/images/project2.webp" />
+        <meta name="twitter:image" content="https://aroramrinaal.vercel.app/images/index-page-preview.jpg" />
+
+        {/* Preload the primary OG image */}
+        <link rel="preload" href="https://aroramrinaal.vercel.app/images/index-page-preview.jpg" as="image" />
+
+        {/* Preload the fallback OG image */}
+        <link rel="preload" href="https://aroramrinaal.vercel.app/images/project2.webp" as="image" />
+
+        {/* Structured data */}
         <script type="application/ld+json">
           {`
     {
