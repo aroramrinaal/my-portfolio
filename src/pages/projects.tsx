@@ -12,19 +12,19 @@ export default function Projects() {
             title="Spotistats"
             description="Analyzing Spotify Listening Habits"
             imageUrl="https://raw.githubusercontent.com/aroramrinaal/my-portfolio/main/public/images/project1.webp"
-            projectUrl="https://github.com/aroramrinaal/spotistats/"
+            projectUrl="https://github.com/aroramrinaal/spotistats/?tab=readme-ov-file#spotistats"
             githubUrl='https://github.com/aroramrinaal/spotistats/'
             externalLinkUrl='https://aroramrinaal.vercel.app/blog/spotistats-project'
-            isHackathonProject={false}
+            techStack={['Python', 'Jupyter', 'Pandas', 'Matplotlib', 'Seaborn']}
           />
           <ProjectCard
             title="Portfolio Website"
             description="Personal Portfolio Website"
             imageUrl="https://raw.githubusercontent.com/aroramrinaal/my-portfolio/main/public/images/project2.webp"
-            projectUrl="https://github.com/aroramrinaal/my-portfolio"
+            projectUrl="https://aroramrinaal.vercel.app"
             githubUrl='https://github.com/aroramrinaal/my-portfolio'
             externalLinkUrl='https://aroramrinaal.vercel.app/'
-            isHackathonProject={false}
+            techStack={['NextJS', 'TailwindCSS', 'Vercel']}
           />
           <ProjectCard
             title='SysTrack'
@@ -33,16 +33,16 @@ export default function Projects() {
             projectUrl='https://pypi.org/project/systracker/'
             githubUrl='https://github.com/VenturaSync/SysTrack'
             externalLinkUrl='https://pypi.org/project/systracker/'
-            isHackathonProject={false}
+            techStack={['python', 'typer','psutil','CLI']}
           />
           <ProjectCard
             title='CursorPath'
-            description='Track Your Mouse Journey'
+            description='Track your cursor movement across tabs and browsing sessions.            '
             imageUrl='https://raw.githubusercontent.com/aroramrinaal/my-portfolio/main/public/images/cursorpathproject.png'
             projectUrl="https://cursorpath.vercel.app/"
             githubUrl='https://github.com/aroramrinaal/cursor-path'
             externalLinkUrl='https://chromewebstore.google.com/detail/cursor-path/mbdjmnlimadokilnbchhooijjphlipfc'
-            isHackathonProject={false}
+            techStack={['javascript','chrome-extension','background-script']}
           />
           <ProjectCard
             title="Powerstride"
@@ -51,7 +51,8 @@ export default function Projects() {
             projectUrl="https://devpost.com/software/powerstride"
             githubUrl='https://github.com/aroramrinaal/PowerStride'
             externalLinkUrl='https://devpost.com/software/powerstride'
-            isHackathonProject={true}
+            stickerText="Made at MakeHarvard"
+            techStack={['arduino','battery','wires','wearable-tech']}
           />
           <ProjectCard
             title="Freshuntil"
@@ -60,7 +61,8 @@ export default function Projects() {
             projectUrl='https://devpost.com/software/freshuntil-4ol2qy'
             githubUrl='https://github.com/mekhiHart/LAHacks-2024/'
             externalLinkUrl='https://devpost.com/software/freshuntil-4ol2qy'
-            isHackathonProject={true}
+            stickerText="Made at LA Hacks"
+            techStack={['typescript','react','ui/ux','food-waste prevention']}
           />
           <ProjectCard
             title='EcoCoin'
@@ -69,7 +71,8 @@ export default function Projects() {
             projectUrl='https://devpost.com/software/ecocoin'
             githubUrl='https://github.com/aroramrinaal/EcoCoin'
             externalLinkUrl='https://devpost.com/software/ecocoin'
-            isHackathonProject={true}
+            stickerText="Made at YHacks"
+            techStack={['chrome-extension','sustainability']}
           />
         </section>
       </main>

@@ -1,9 +1,13 @@
 import React from 'react';
 
-const HackathonSticker = () => {
+interface HackathonStickerProps {
+  text: string;
+}
+
+const HackathonSticker: React.FC<HackathonStickerProps> = ({ text }) => {
   return (
-    <div className="hackathon-sticker">
-      Made at a Hackathon
+    <div className="hackathon-sticker animate-pulse animate-infinite hover:animate-none">
+      {text}
     </div>
   );
 };
