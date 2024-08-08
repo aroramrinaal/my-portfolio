@@ -24,7 +24,6 @@ export default function Projects() {
         <meta name="twitter:image" content="https://aroramrinaal.vercel.app/images/projects-page-preview.png" />
       </Head>
       <Navbar />
-      <Navbar />
       <main className="flex-grow bg-linen p-4 md:p-6">
         <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <ProjectCard
