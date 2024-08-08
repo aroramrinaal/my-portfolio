@@ -9,7 +9,7 @@ export default function Home() {
     <div className="flex flex-col min-h-screen bg-linen">
       <Head>
         <title>Mrinaal Arora | Software Engineer</title>
-        <meta name="description" content="Welcome to the portfolio of Mrinaal Arora, a skilled software engineer specializing in web development and AI. Explore his projects, blog posts, and contact information." />
+        <meta name="description" content="Mrinaal Arora's Portfolio: Software Engineer. Explore projects, blog, and contact info." />
         <meta name="keywords" content="Mrinaal Arora, software engineer, web developer, AI, portfolio, Mrinaal, Arora" />
         <meta name="author" content="Mrinaal Arora" />
         <meta name="robots" content="index, follow" />
