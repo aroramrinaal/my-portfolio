@@ -1,4 +1,5 @@
 import React from 'react';
+import Head from 'next/head';
 import Navbar from '@/components/Navbar';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -6,13 +7,51 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-linen">
+      <Head>
+        <title>Mrinaal Arora | Software Engineer</title>
+        <meta name="description" content="Welcome to the portfolio of Mrinaal Arora, a proficient software engineer specializing in web development and AI. Explore projects, blog posts, and contact information." />
+        <meta name="keywords" content="Mrinaal Arora, Software Engineer, Web Developer, AI, Portfolio" />
+        <meta name="author" content="Mrinaal Arora" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://aroramrinaal.vercel.app/" />
+        <meta property="og:title" content="Mrinaal Arora | Software Engineer" />
+        <meta property="og:description" content="Explore the portfolio of Mrinaal Arora, a software engineer specializing in web development and AI." />
+        <meta property="og:image" content="https://aroramrinaal.vercel.app/images/project2.webp" />
+        <meta property="og:url" content="https://aroramrinaal.vercel.app/" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Mrinaal Arora | Software Engineer" />
+        <meta name="twitter:description" content="Explore the portfolio of Mrinaal Arora, a software engineer specializing in web development and AI." />
+        <meta name="twitter:image" content="https://aroramrinaal.vercel.app/images/project2.webp" />
+        <script type="application/ld+json">
+          {`
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Mrinaal Arora",
+      "jobTitle": "Software Engineer",
+      "url": "https://aroramrinaal.vercel.app/",
+      "sameAs": [
+        "https://www.linkedin.com/in/mrinaalarora/",
+        "https://github.com/aroramrinaal",
+        "https://x.com/mrinaalarora25",
+        "https://www.instagram.com/mri.ar/",
+        "https://devpost.com/aroramrinaal"
+      ],
+      "image": "https://aroramrinaal.vercel.app/images/project2.webp",
+      "description": "Welcome to the portfolio of Mrinaal Arora, a proficient software engineer specializing in web development and AI. Explore projects, blog posts, and contact information."
+    }
+    `}
+        </script>
+      </Head>
+
       <Navbar />
       <div className="flex flex-col md:flex-row flex-grow items-center justify-center px-4 md:px-8 py-8 md:py-0">
         <div className="w-full md:w-2/5 flex items-center justify-center mb-8 md:mb-0">
           <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden shadow-lg">
             <Image
               src="https://raw.githubusercontent.com/aroramrinaal/my-portfolio/main/public/images/profile.webp"
-              alt="Profile Picture"
+              alt="Profile Picture of Mrinaal Arora"
               layout="fill"
               objectFit="cover"
               quality={100}
@@ -24,7 +63,7 @@ export default function Home() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-black mb-2 md:mb-4">Hello!</h1>
             <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold text-amethyst mb-4">I&apos;m Mrinaal Arora</h2>
             <p className="text-sm md:text-base text-black mb-4 md:mb-6 max-w-md md:max-w-lg">
-              Explore my diverse range of projects and discover the creative solutions I&apos;ve developed.
+              Welcome to my page on the internet! I am a software engineer. Explore my diverse range of projects and discover the creative solutions I&apos;ve developed.
             </p>
             <div className="flex justify-center md:justify-start space-x-4 mb-6 md:mb-8">
               <SocialIcon href="https://www.linkedin.com/in/mrinaalarora/" ariaLabel="LinkedIn">

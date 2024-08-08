@@ -10,7 +10,10 @@ function App({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Mrinaal Arora" />
+        <meta name="description" content="Portfolio of Mrinaal Arora, a software engineer specializing in web development and AI. Explore my projects, blog posts, and contact information." />
+        <meta name="keywords" content="Mrinaal Arora, Software Engineer, Web Developer, AI, Portfolio" />
+        <meta name="author" content="Mrinaal Arora" />
+        <meta name="robots" content="index, follow" />
       </Head>
       <Component {...pageProps} />
       <SpeedInsights />
