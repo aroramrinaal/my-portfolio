@@ -67,7 +67,7 @@ export default function Projects() {
           <ProjectCard
             title='EcoCoin'
             description='Earn Green for Going Green'
-            imageUrl='/images/ecocoin.png'
+            imageUrl='https://raw.githubusercontent.com/aroramrinaal/my-portfolio/main/public/images/ecocoin.png'
             projectUrl='https://devpost.com/software/ecocoin'
             githubUrl='https://github.com/aroramrinaal/EcoCoin'
             externalLinkUrl='https://devpost.com/software/ecocoin'
